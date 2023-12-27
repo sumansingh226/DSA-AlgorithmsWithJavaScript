@@ -14,5 +14,5 @@ const printSquareStarPatter = ((rows) => {
         console.log(pattern);
     }
 })
-let i = 5;
+let i = 10;
 printSquareStarPatter(i)
