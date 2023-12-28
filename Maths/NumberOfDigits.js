@@ -13,3 +13,5 @@ const countsDigits = (n) => {
 
 const result = countsDigits(7789);
 console.log("result", result);
+
+// time complexity  O(log10(n))
