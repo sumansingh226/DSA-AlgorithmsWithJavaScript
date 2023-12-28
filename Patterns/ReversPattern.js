@@ -82,16 +82,48 @@ const pattern4 = (n) => {
 //  *****
 //   ***
 //    *
-const pattern5 = (n) => {
+const pattern5 = ((n) => {
+
     for (let i = 0; i < n; i++) {
-        let pattern = Array(n - i).fill(' ').join('') + Array(2 * i + 1).fill('*').join('');
+        let pattern = "";
+
+        // Add spaces before the asterisks
+        for (let j = 0; j < n - i - 1; j++) {
+            pattern += " ";
+        }
+
+        // Add asterisks
+        for (let j = 0; j < 2 * i + 1; j++) {
+            pattern += "*";
+        }
+
+        // Add spaces after the asterisks
+        for (let j = 0; j < n - i - 1; j++) {
+            pattern += " ";
+        }
+
         console.log(pattern);
     }
     for (let i = 0; i < n; i++) {
-        let pattern = Array(i).fill(' ').join('') + Array(2 * (n - i) - 1).fill('*').join('');
+        let pattern = "";
+
+        // Add spaces before the asterisks
+        for (let j = 0; j < i; j++) {
+            pattern += " ";
+        }
+
+        // Add asterisks
+        for (let j = 0; j < 2 * (n - i) - 1; j++) {
+            pattern += "*";
+        }
+
+        // Add spaces after the asterisks
+        for (let j = 0; j < i; j++) {
+            pattern += " ";
+        }
+
         console.log(pattern);
     }
-};
+})
 
 pattern5(6);
-
