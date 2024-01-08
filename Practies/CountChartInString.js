@@ -10,7 +10,7 @@ function charCount(str) {
     for (let i = 0; i < charCountString.length; i++) {
         let char = charCountString[i];
         if (countObject[char]) {
-            countObject[char]++;
+            countObject[char] = +1;
         } else {
             countObject[char] = 1;
         }
