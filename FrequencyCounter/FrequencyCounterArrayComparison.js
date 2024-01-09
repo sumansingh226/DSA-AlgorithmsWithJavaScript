@@ -4,29 +4,22 @@ const frequencyCountofTwoArray = (array1, array2) => {
     }
     let frequencyCounts = {};
 
-    for (let i = 0; i < array1.length; i++) {
-        const square = array1[i] * array1[i];
-        if (frequencyCounts[square]) {
-            frequencyCounts[square]++;
-        } else {
-            frequencyCounts[square] = 1;
-        }
+    for (const value of array2) {
+        const square = value * value;
+        frequencyCounts[value]
+            ? frequencyCounts[square]++
+            : (frequencyCounts[square] = 1);
     }
 
     console.log("frequencyCounts", frequencyCounts);
 
-    for (let j = 0; j < array2.length; j++) {
-        if (frequencyCounts[array2[j]]) {
-            frequencyCounts[array2[j]]--;
-        } else {
-            console.log("frequencyCounts", frequencyCounts);
-
-            return console.log("false");
-        }
+    for (const value of array2) {
+        if (frequencyCounts[value]) frequencyCounts[value]--;
+        else return console.log("false");
     }
     console.log("true");
 
     console.log("frequencyCounts", frequencyCounts);
 };
 
-frequencyCountofTwoArray([1, 2, 3, 4], [1, 4, 9, 16]); 
+frequencyCountofTwoArray([1, 2, 3, 4], [1, 4, 2, 16]);
