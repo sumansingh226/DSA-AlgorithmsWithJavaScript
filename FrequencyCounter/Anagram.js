@@ -11,29 +11,19 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
     if (inputString1.length !== inputString12.length) {
         return false; // If the lengths are different, they can't be anagrams
     }
+    const frequencyCounter = {};
 
-    const frequencyCounter1 = {};
-    const frequencyCounter2 = {};
-
-    // Create frequency counters for each string
-    for (let char of inputString1) {
-        frequencyCounter1[char]
-            ? frequencyCounter1[char]++
-            : (frequencyCounter1[char] = 1);
-    }
-
-    for (let char of inputString12) {
-        frequencyCounter2[char]
-            ? frequencyCounter2[char]++
-            : (frequencyCounter2[char] = 1);
+    // Create frequency counter for str1
+    for (let char of str1) {
+        frequencyCounter[char] = (frequencyCounter[char] || 0) + 1;
     }
 
     // Compare the frequency of each character in both frequency counters
     for (let char of inputString12) {
-        if (!frequencyCounter1[char]) {
+        if (!frequencyCounter[char]) {
             return false; // If a character is missing or its frequency is 0, they are not anagrams
         } else {
-            frequencyCounter1[char] -= 1; // Decrement the frequency count
+            frequencyCounter[char] -= 1; // Decrement the frequency count
         }
     }
 
