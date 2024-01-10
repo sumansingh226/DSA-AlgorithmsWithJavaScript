@@ -10,9 +10,7 @@ const frequencyCountofTwoArray = (array1, array2) => {
             ? frequencyCounts[square]++
             : (frequencyCounts[square] = 1);
     }
-
     console.log("frequencyCounts", frequencyCounts);
-
     for (const value of array2) {
         if (frequencyCounts[value]) frequencyCounts[value]--;
         else return console.log("false");

@@ -12,12 +12,10 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
         return false; // If the lengths are different, they can't be anagrams
     }
     const frequencyCounter = {};
-
     // Create frequency counter for str1
     for (let char of str1) {
         frequencyCounter[char] = (frequencyCounter[char] || 0) + 1;
     }
-
     // Compare the frequency of each character in both frequency counters
     for (let char of inputString12) {
         if (!frequencyCounter[char]) {
@@ -26,7 +24,6 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
             frequencyCounter[char] -= 1; // Decrement the frequency count
         }
     }
-
     return true; // If all checks pass, the strings are anagrams
 }
 
