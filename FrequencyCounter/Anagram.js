@@ -5,21 +5,38 @@ using all the original letters exactly once. Essentially,
 For example, the word "listen" and "silent" are anagrams of each other because they contain
 the exact same letters.*/
 
-const checkIsGivenStringAnaGram = inputString => {
 
-    const countChars = {};
 
-    for (const value of inputString) {
-        if (countChars[value]) {
-            countChars[value]++;
-        }
-        else {
-            countChars[value] = 1;
-        }
-
+const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
+    if (str1.length !== str2.length) {
+        return false; // If the lengths are different, they can't be anagrams
     }
-    console.log(countChars);
 
+    const frequencyCounter1 = {};
+    const frequencyCounter2 = {};
+
+    // Create frequency counters for each string
+    for (let char of str1) {
+        frequencyCounter1[char] = (frequencyCounter1[char] || 0) + 1;
+    }
+
+    for (let char of str2) {
+        frequencyCounter2[char] = (frequencyCounter2[char] || 0) + 1;
+    }
+
+    // Compare the frequency of each character in both frequency counters
+    for (let key in frequencyCounter1) {
+        if (!(key in frequencyCounter2)) {
+            return false; // If a character is missing in one frequency counter, they are not anagrams
+        }
+        if (frequencyCounter1[key] !== frequencyCounter2[key]) {
+            return false; // If the frequencies of a character are different, they are not anagrams
+        }
+    }
+
+    return true; // If all checks pass, the strings are anagrams
 }
 
-checkIsGivenStringAnaGram('anagram')
+console.log(checkIsGivenStringAnaGram("abcd", "dcba")); // Output: true
+console.log(checkIsGivenStringAnaGram("abcd", "abcde")); // Output: false
+console.log(checkIsGivenStringAnaGram("apple", "papel")); // Output: true
