@@ -8,7 +8,7 @@ the exact same letters.*/
 
 
 const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
-    if (str1.length !== str2.length) {
+    if (inputString1.length !== inputString12.length) {
         return false; // If the lengths are different, they can't be anagrams
     }
 
@@ -16,12 +16,16 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
     const frequencyCounter2 = {};
 
     // Create frequency counters for each string
-    for (let char of str1) {
-        frequencyCounter1[char] = (frequencyCounter1[char] || 0) + 1;
+    for (let char of inputString1) {
+        frequencyCounter1[char]
+            ? frequencyCounter1[char]++
+            : (frequencyCounter1[char] = 1);
     }
 
-    for (let char of str2) {
-        frequencyCounter2[char] = (frequencyCounter2[char] || 0) + 1;
+    for (let char of inputString12) {
+        frequencyCounter2[char]
+            ? frequencyCounter2[char]++
+            : (frequencyCounter2[char] = 1);
     }
 
     // Compare the frequency of each character in both frequency counters
