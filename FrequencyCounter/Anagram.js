@@ -29,12 +29,11 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
     }
 
     // Compare the frequency of each character in both frequency counters
-    for (let key in frequencyCounter1) {
-        if (!(key in frequencyCounter2)) {
-            return false; // If a character is missing in one frequency counter, they are not anagrams
-        }
-        if (frequencyCounter1[key] !== frequencyCounter2[key]) {
-            return false; // If the frequencies of a character are different, they are not anagrams
+    for (let char of inputString12) {
+        if (!frequencyCounter1[char]) {
+            return false; // If a character is missing or its frequency is 0, they are not anagrams
+        } else {
+            frequencyCounter1[char] -= 1; // Decrement the frequency count
         }
     }
 
