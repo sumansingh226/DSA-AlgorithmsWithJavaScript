@@ -4,7 +4,6 @@ const input1 = [3, 6, 8, 10, 15];
 const input2 = [1, 5, 12];
 const input3 = [4, 8, 15, 16];
 
-
 Output: Minimum range is 4-7   solve this question and define problem in breif and solution also */
 
 function findMinimumRange(arr1, arr2, arr3) {

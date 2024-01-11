@@ -41,7 +41,3 @@ The two-pointer technique is a strategy used in algorithms to efficiently solve 
 - **Pointer Manipulation**: Adjust pointers based on specific conditions.
 - **Edge Cases**: Handle scenarios where pointers reach ends or null values.
 - **Time Complexity**: Evaluate how this technique optimizes the solution.
-
-## Example
-
-### Problem: Finding a Pair Summing to Target
