@@ -17,6 +17,7 @@ function twoSumToSpecificGivenTarget(arr, target) {
     return [];
 }
 
+
 const array = [2, 7, 11, 15, 18];
 const targetSum = 26;
 console.log(twoSumToSpecificGivenTarget(array, targetSum));

@@ -10,7 +10,6 @@ function lengthOfLongestSubstring(s) {
         if (charIndex[s[i]] !== undefined && charIndex[s[i]] >= start) {
             start = charIndex[s[i]] + 1;
         }
-
         charIndex[s[i]] = i;
         maxLength = Math.max(maxLength, i - start + 1);
     }
