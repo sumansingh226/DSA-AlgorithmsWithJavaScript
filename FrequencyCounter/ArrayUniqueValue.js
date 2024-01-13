@@ -1,3 +1,8 @@
+
+// Write a function countFrequency(arr) that takes an array of elements as
+//  input and returns an object representing the frequency of each unique element in the array.
+
+
 function countFrequency(arr) {
     // Create an empty object to store frequencies
     const frequencyCounter = {};
@@ -12,7 +17,6 @@ function countFrequency(arr) {
             frequencyCounter[element] = 1;
         }
     }
-
     // Return the frequency counter object
     return frequencyCounter;
 }
