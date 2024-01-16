@@ -13,8 +13,8 @@ function gcd(a, b) {
 }
 
 // Example usage:
-const num1 = 11;
-const num2 = 13;
+const num1 = 20;
+const num2 = 50;
 const result = gcd(num1, num2);
 
 console.log(`The GCD of ${num1} and ${num2} is: ${result}`);
