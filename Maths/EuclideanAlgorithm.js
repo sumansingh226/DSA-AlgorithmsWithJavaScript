@@ -20,6 +20,6 @@ const GcdByEuclidean = (n1, n2) => {
 // Example usage:
 const num1 = 20;
 const num2 = 50;
-const result = gcd(num1, num2);
+const result = GcdByEuclidean(num1, num2);
 
 console.log(`The GCD of ${num1} and ${num2} is: ${result}`);
