@@ -44,6 +44,11 @@ The two-pointer technique is a strategy used in algorithms to efficiently solve 
 - **Edge Cases**: Handle scenarios where pointers reach ends or null values.
 - # **Time Complexity**: Evaluate how this technique optimizes the solution.
 
+- # some use cases
+  use when array is sorted
+  descre time complexity
+  2 sum , or three suma problem
+
 # OR
 
 # Two Pointer is Normally used for searching and it use two pointer,
