@@ -63,4 +63,3 @@ So depending on whether the input string/array is sorted or not, the two-pointer
 2. **Equi-Direction:**
    Both start from the beginning, One Slow-runner and the other fast-runner.
    In the "Equi-Direction" scenario, you have two pointers both starting from the same end of the array and moving at different speeds. The "fast" pointer moves faster than the "slow" pointer. This approach is often used in problems involving linked lists or arrays where you need to identify a certain condition.
-   > > > > > > > e9405774a72fc82403df9b69781e335329b9a132
