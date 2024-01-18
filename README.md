@@ -247,9 +247,67 @@ Searching algorithms are used to find the presence or absence of a target value 
 
 ### Search in Different Data Structures
 
-1. **Searching in Arrays:** Applying various searching algorithms on arrays.
-2. **Searching in Trees:** Techniques for searching in binary trees.
-3. **Searching in Hash Tables:** Utilizing hash functions for fast key retrieval.
+#### 1. Searching in Arrays
+
+When dealing with arrays, different searching algorithms can be applied depending on the nature of the data.
+
+- **Linear Search:**
+
+  - Suitable for unsorted arrays.
+  - Time complexity: O(n).
+
+- **Binary Search:**
+
+  - Ideal for sorted arrays.
+  - Time complexity: O(log n).
+
+- **Interpolation Search:**
+  - Effective for uniformly distributed sorted arrays.
+  - Time complexity: O(log log n).
+
+#### 2. Searching in Trees
+
+Searching in trees, especially binary trees, involves navigating through nodes to find a specific value.
+
+- **Binary Search Tree (BST):**
+
+  - Utilizes the properties of a BST to efficiently search for a node.
+  - Time complexity: O(log n) in average case.
+
+- **Depth-First Search (DFS):**
+
+  - Can be applied to traverse through a tree and search for a specific value.
+  - Pre-order, in-order, and post-order variants.
+
+- **Breadth-First Search (BFS):**
+  - Useful for level-order traversal and searching in a tree.
+
+#### 3. Searching in Hash Tables
+
+Hash tables provide a fast and efficient way to retrieve values based on keys using hash functions.
+
+- **Hash Function:**
+
+  - The hash function maps keys to indices in the hash table.
+  - Uniform distribution is essential for optimal performance.
+
+- **Collision Handling:**
+
+  - Techniques like separate chaining or open addressing to handle collisions.
+
+- **Hash-based Search:**
+  - Achieves constant time complexity O(1) on average for retrieving values.
+
+### Additional Resources
+
+- [GeeksforGeeks - Searching in Arrays](https://www.geeksforgeeks.org/searching-algorithms/)
+- [GeeksforGeeks - Searching in Trees](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+- [GeeksforGeeks - Hashing](https://www.geeksforgeeks.org/hashing-set-1-introduction/)
+- [Khan Academy - Hash Tables](https://www.khanacademy.org/computing/computer-science/hash-tables)
+- [Visualgo - Binary Search Tree Visualization](https://visualgo.net/en/bst)
+- [Visualgo - Hash Table Visualization](https://visualgo.net/en/hashtable)
+
+Feel free to contribute to this section by adding more details, examples, or explanations.
 
 ### Additional Resources
 
