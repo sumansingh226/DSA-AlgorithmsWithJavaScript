@@ -401,6 +401,68 @@ Feel free to contribute to this section by adding more details, examples, or exp
 
 ## Stacks
 
+### Introduction
+
+A stack is a fundamental Last In, First Out (LIFO) data structure used in computer science. Elements are added and removed from the top of the stack. It follows the principle of adding new elements on top and removing the most recently added element. Stacks are widely used in various algorithms and applications for their simplicity and efficiency.
+
+### Basic Operations
+
+1. **Push:**
+
+   - Add an element to the top of the stack.
+
+2. **Pop:**
+
+   - Remove the element from the top of the stack.
+
+3. **Peek (or Top):**
+   - Retrieve the top element without removing it.
+
+### Applications
+
+1. **Function Call Management:**
+
+   - Stacks are used to manage function calls and local variables during program execution. Each function call gets a stack frame, and when a function completes, its frame is popped.
+
+2. **Expression Evaluation:**
+
+   - In arithmetic expression evaluation, stacks help process operators and operands. They play a crucial role in converting infix expressions to postfix or prefix forms.
+
+3. **Undo Mechanisms:**
+   - Stacks are employed in implementing undo mechanisms in applications. Each action gets pushed onto the stack, and undoing involves popping the last action.
+
+### Challenges
+
+1. **Balanced Parentheses:**
+
+   - Stacks are used to check if an expression has balanced parentheses. Each opening bracket gets pushed, and when a closing bracket is encountered, it should match the top element.
+
+2. **Next Greater Element:**
+   - Stacks can efficiently find the next greater element for each element in an array. Elements are pushed onto the stack until a greater element is encountered.
+
+### Advanced Topics
+
+1. **Min Stack:**
+
+   - An extension of the stack that supports constant-time retrieval of the minimum element in the stack. It involves maintaining an additional stack for minimum values.
+
+2. **Expression Conversion:**
+   - Stacks are used in converting infix expressions to postfix or prefix forms. Operators are pushed and popped based on their precedence.
+
+### Implementation Considerations
+
+1. **Space Complexity:**
+
+   - Analyze the space requirements of different stack implementations. Array-based implementations may have fixed-size limitations, while linked list-based implementations allow dynamic memory allocation.
+
+2. **Choosing Implementation:**
+   - The choice between array-based and linked list-based implementations depends on usage patterns. Arrays offer constant-time access but may require resizing, while linked lists provide dynamic memory allocation.
+
+### Resources
+
+- [GeeksforGeeks - Stack](https://www.geeksforgeeks.org/stack-data-structure/)
+- [Visualgo - Stack Visualization](https://visualgo.net/en/list)
+
 ...
 
 ## Queues
