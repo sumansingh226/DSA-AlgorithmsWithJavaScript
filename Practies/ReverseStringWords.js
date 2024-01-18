@@ -11,7 +11,6 @@ const reverseWordsInString = ((str) => {
     return result;
 })
 
-
 const inputString = "This is a java Program";
 const result = reverseWordsInString(inputString)
 console.log("result", result);
