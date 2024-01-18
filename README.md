@@ -12,7 +12,7 @@ Welcome to the Frontend DSA (Data Structures and Algorithms) repository with Jav
 6. [Stacks](#stacks)
 7. [Queues](#queues)
 8. [Trees](#trees)
-9. [Binary Trees](#binary-trees) <!-- Corrected spacing -->
+9. [Binary Trees](#binary-trees)
 10. [Heaps](#heaps)
 11. [Hashing](#hashing)
 12. [Dynamic Programming](#dynamic-programming)
@@ -596,6 +596,46 @@ Trees are hierarchical data structures widely used in computer science to repres
 - [Visualgo - Tree Visualization](https://visualgo.net/en/bst)
 
 ...
+
+# Binary Trees
+
+## Introduction
+
+Binary trees are hierarchical data structures where each node has at most two children: a left child and a right child. They are fundamental in computer science, serving as the basis for various algorithms and applications.
+
+### Components
+
+1. **Node:**
+   - Fundamental building block containing data and pointers to left and right children.
+2. **Root:**
+   - The topmost node in the binary tree.
+3. **Leaf:**
+   - Nodes without children, located at the bottom of the tree.
+
+### Types of Binary Trees
+
+1. **Full Binary Tree:**
+   - Every node has either 0 or 2 children.
+2. **Perfect Binary Tree:**
+   - All levels are completely filled with nodes.
+3. **Complete Binary Tree:**
+   - All levels, except possibly the last, are completely filled, and nodes are filled from left to right.
+
+### Common Operations
+
+1. **Traversal:**
+   - **In-order:** Left, Root, Right.
+   - **Pre-order:** Root, Left, Right.
+   - **Post-order:** Left, Right, Root.
+2. **Insertion and Deletion:**
+   - Adding and removing nodes while maintaining the binary tree structure.
+
+### Resources
+
+- [GeeksforGeeks - Binary Trees](https://www.geeksforgeeks.org/binary-tree-data-structure/)
+- [Visualgo - Binary Tree Visualization](https://visualgo.net/en/bst)
+
+---
 
 ## Heaps
 
