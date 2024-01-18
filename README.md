@@ -140,6 +140,67 @@ Feel free to contribute to this section by adding more topics, examples, or expl
 
 ## Sorting Algorithms
 
+### Introduction
+
+Sorting algorithms are essential in computer science and are used to arrange elements in a specific order. Proper understanding of sorting algorithms is crucial for writing efficient code and optimizing performance.
+
+### Common Sorting Algorithms
+
+1. **Bubble Sort:**
+
+   - Basic comparison-based sorting algorithm.
+   - Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+
+2. **Selection Sort:**
+
+   - In-place comparison-based sorting algorithm.
+   - Divides the input list into two parts: a sorted and an unsorted region.
+
+3. **Insertion Sort:**
+
+   - Simple and intuitive sorting algorithm.
+   - Builds the final sorted array one element at a time.
+
+4. **Merge Sort:**
+
+   - Divide and conquer algorithm.
+   - Divides the unsorted list into `n` sub-lists, each containing one element, and then repeatedly merges sub-lists to produce new sorted sub-lists.
+
+5. **QuickSort:**
+
+   - Divide and conquer algorithm.
+   - Picks a pivot element and partitions the array into two sub-arrays according to the pivot, then recursively sorts the sub-arrays.
+
+6. **Heap Sort:**
+   - Comparison-based sorting algorithm.
+   - Builds a binary heap and repeatedly extracts the maximum element from it.
+
+### Comparison of Sorting Algorithms
+
+- **Time Complexity:** Understand the time complexity of each sorting algorithm in various scenarios (best-case, average-case, worst-case).
+- **Space Complexity:** Analyze the space complexity of sorting algorithms.
+- **Stability:** Consider whether the sorting algorithm preserves the relative order of equal elements.
+
+### When to Use Which Algorithm
+
+- **Small Datasets:** Consider simpler algorithms like Bubble Sort or Insertion Sort.
+- **Nearly Sorted Data:** Insertion Sort may perform well.
+- **Large Datasets:** Merge Sort, QuickSort, or Heap Sort are often preferred.
+- **Stable Sorting:** Use algorithms like Merge Sort or Bubble Sort.
+
+### Advanced Sorting Topics
+
+1. **External Sorting:** Techniques for sorting data that is too large to fit into memory.
+2. **Parallel Sorting:** Strategies for sorting large datasets in parallel.
+3. **Hybrid Sorting Algorithms:** Combining different sorting algorithms for improved performance.
+
+### Additional Resources
+
+- [Visualgo Sorting Algorithm Visualization](https://visualgo.net/en/sorting)
+- [Toptal Sorting Algorithms in Plain English](https://www.toptal.com/developers/sorting-algorithms)
+
+Feel free to contribute to this section by adding more details, examples, or explanations.
+
 ...
 
 ## Searching
