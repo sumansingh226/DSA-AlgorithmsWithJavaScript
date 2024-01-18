@@ -467,6 +467,86 @@ A stack is a fundamental Last In, First Out (LIFO) data structure used in comput
 
 ## Queues
 
+### Introduction
+
+A queue is a fundamental First In, First Out (FIFO) data structure that manages elements in a linear order. In a queue, elements are enqueued (added) to the rear and dequeued (removed) from the front. Queues are widely used in algorithms and real-world applications for efficient task scheduling, breadth-first search, and resource management.
+
+### Basic Operations
+
+1. **Enqueue:**
+
+   - Add an element to the rear of the queue.
+
+2. **Dequeue:**
+
+   - Remove an element from the front of the queue.
+
+3. **Front (Peek):**
+   - Retrieve the front element without removal.
+
+### Applications
+
+1. **Task Scheduling:**
+
+   - Queues are used to manage tasks in the order they arrive. The first task added is the first to be processed.
+
+2. **Breadth-First Search:**
+
+   - In graph algorithms like BFS, queues facilitate traversing levels in a hierarchical structure level by level.
+
+3. **Resource Management:**
+   - Queues control access to shared resources, ensuring fair and orderly utilization.
+
+### Challenges
+
+1. **Circular Queue:**
+
+   - In a circular queue, elements are enqueued and dequeued in a circular manner, efficiently utilizing space.
+
+2. **Queue using Stacks:**
+   - Implementing a queue using two stacks, showcasing how queues can be simulated using other data structures.
+
+### Advanced Topics
+
+#### 1. Priority Queue:
+
+- **Definition:**
+  - A variation of a queue where elements have assigned priorities.
+- **Implementation:**
+  - Implemented using a binary heap or other priority queue data structures.
+- **Usage:**
+  - Useful in scenarios where elements need to be processed based on their priority level.
+
+#### 2. Double-ended Queue (Deque):
+
+- **Definition:**
+  - A versatile queue that supports insertion and deletion at both ends.
+- **Operations:**
+  - Allows operations such as `insertFront`, `insertRear`, `deleteFront`, and `deleteRear`.
+- **Usage:**
+  - Provides more flexibility and is suitable for scenarios where elements need to be added or removed from both ends.
+
+#### 3. Circular Queue with Dynamic Resizing:
+
+- **Challenge:**
+  - Overcomes the limitation of fixed-size circular queues.
+- **Dynamic Resizing:**
+  - Dynamically resizes the circular queue when it reaches capacity, allowing for a more adaptable and space-efficient implementation.
+
+### Implementation Considerations
+
+1. **Space Complexity:**
+
+   - Analyze the space requirements of different queue implementations. Array-based implementations may have fixed-size limitations, while linked list-based implementations allow dynamic memory allocation.
+
+2. **Choosing Implementation:**
+   - Choose between array-based and linked list-based implementations based on specific use cases. Arrays offer constant-time access, while linked lists allow for dynamic resizing.
+
+### Resources
+
+- [GeeksforGeeks - Queue](https://www.geeksforgeeks.org/queue-data-structure/)
+- [Visualgo - Queue Visualization](https://visualgo.net/en/list)
+
 ...
 
 ## Trees
