@@ -948,6 +948,21 @@ Backtracking is a general algorithmic technique for solving problems that increm
 - **Problem Statement:** Assigning colors to vertices of a graph such that no two adjacent vertices share the same color.
 - **Backtracking Approach:** Exploring different color assignments.
 
+## 9. Knight's Tour
+
+- **Problem Statement:** Finding a sequence of moves for a knight to visit every square on a chessboard exactly once.
+- **Backtracking Solution:** Exploring different paths for the knight.
+
+## 10. Word Search
+
+- **Problem Statement:** Searching for a word in a 2D grid of characters.
+- **Backtracking Solution:** Exploring different paths to find the word.
+
+## 11. Combination Sum
+
+- **Problem Statement:** Finding all unique combinations in a set of numbers that sum up to a target.
+- **Backtracking Approach:** Generating combinations using backtracking.
+
 ## Resources
 
 - [GeeksforGeeks - Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
