@@ -1278,7 +1278,65 @@ Graph algorithms are essential for analyzing and solving problems related to gra
 
 ...
 
-## Geometry Algorithms
+# Geometry Algorithms
+
+Geometry algorithms deal with solving problems related to geometric objects such as points, lines, and polygons. These algorithms are essential in computer graphics, computer-aided design, and various other applications. Here are key topics related to geometry algorithms:
+
+## 1. Points and Vectors
+
+- **Coordinate Systems:** Understanding different coordinate systems (2D and 3D).
+- **Vectors:** Representing and manipulating vectors in geometric calculations.
+
+## 2. Distance and Angles
+
+- **Euclidean Distance:** Calculating distances between points.
+- **Angle Between Vectors:** Determining angles formed by vectors.
+
+## 3. Line Segments and Lines
+
+- **Slope of a Line:** Finding the slope of a line in 2D space.
+- **Intersection of Lines:** Detecting intersections between line segments.
+
+## 4. Convex Hull
+
+- **Convex Hull Problem:** Finding the smallest convex polygon that encloses a set of points.
+- **Graham's Scan Algorithm:** Constructing the convex hull efficiently.
+
+## 5. Polygon Triangulation
+
+- **Triangulating Polygons:** Decomposing a polygon into triangles.
+- **Ear Clipping Algorithm:** An approach to polygon triangulation.
+
+## 6. Closest Pair of Points
+
+- **Closest Pair Problem:** Finding the two closest points in a set.
+- **Divide and Conquer:** Solving the problem efficiently using a divide-and-conquer approach.
+
+## 7. Intersection of Geometric Objects
+
+- **Intersection of Line Segments:** Determining if two line segments intersect.
+- **Intersection of Circles:** Detecting intersections between circles.
+
+## 8. Polygon Area
+
+- **Shoelace Formula:** Calculating the area of a simple polygon.
+- **Orientation Test:** Determining the orientation of three points.
+
+## 9. Voronoi Diagrams
+
+- **Voronoi Diagram:** Dividing a plane into regions based on proximity to a given set of points.
+- **Fortune's Algorithm:** Constructing Voronoi diagrams efficiently.
+
+## 10. Delaunay Triangulation
+
+- **Delaunay Triangulation:** Triangulating a set of points such that no point is inside the circumcircle of any triangle.
+- **Bowyer-Watson Algorithm:** An algorithm for Delaunay triangulation.
+
+## Resources
+
+- [GeeksforGeeks - Computational Geometry](https://www.geeksforgeeks.org/computer-graphics-algorithms/)
+- [Brilliant.org - Geometry](https://brilliant.org/wiki/geometry-algorithms/)
+- [CGAL - Computational Geometry Algorithms Library](https://www.cgal.org/)
 
 ...
 
