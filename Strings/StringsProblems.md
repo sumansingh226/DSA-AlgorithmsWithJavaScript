@@ -1,20 +1,8 @@
 # String Data Structures Interview Questions
 
-### Solar System Exploration, 1950s – 1960s
-
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
-
 ## Basic Level
 
-1. - [ ] Write a function to reverse a string.
+1. [ ] Write a function to reverse a string.
 2. [ ] Implement a function to check if two strings are anagrams.
 3. [ ] Create a program to find the first non-repeated character in a string.
 4. [ ] Write a function to remove duplicate characters from a string.
