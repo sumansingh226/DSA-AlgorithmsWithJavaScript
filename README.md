@@ -730,7 +730,61 @@ Consistent hashing is a technique that minimizes the impact of adding or removin
 
 ...
 
-## Dynamic Programming
+# Dynamic Programming
+
+Dynamic Programming (DP) is a powerful optimization technique in computer science used to solve problems by breaking them down into smaller overlapping subproblems. It often involves storing solutions to subproblems to avoid redundant computations. Here are key topics related to dynamic programming:
+
+## 1. Introduction to Dynamic Programming
+
+- **Definition:** Understanding the essence of dynamic programming and its role in algorithmic problem-solving.
+- **Optimal Substructure:** Exploring problems that can be broken down into smaller, independent subproblems.
+- **Overlapping Subproblems:** Identifying situations where the same subproblems are solved multiple times.
+
+## 2. Memoization
+
+- **Memoization Concept:** Storing solutions to subproblems to avoid redundant computations.
+- **Top-Down Approach:** Solving problems recursively while caching results for future use.
+- **Memoization in Practice:** Implementing memoization in various algorithms.
+
+## 3. Tabulation (Bottom-Up Approach)
+
+- **Tabulation Concept:** Building solutions iteratively, starting from the smallest subproblems.
+- **Bottom-Up Approach:** Solving problems by constructing a table of solutions.
+- **Advantages and Disadvantages:** Comparing memoization and tabulation.
+
+## 4. Fibonacci Sequence Example
+
+- **Recursive Solution:** Understanding the inefficiency of a naive recursive approach.
+- **Memoized Solution:** Implementing memoization to improve performance.
+- **Tabulated Solution:** Applying a bottom-up approach for further optimization.
+
+## 5. Longest Common Subsequence
+
+- **Problem Definition:** Finding the longest subsequence common to two sequences.
+- **Dynamic Programming Solution:** Developing a dynamic programming solution for the problem.
+- **Implementation:** Writing code to find the longest common subsequence.
+
+## 6. Knapsack Problem
+
+- **0/1 Knapsack Problem:** Understanding the problem of selecting items for a knapsack with weight constraints.
+- **Dynamic Programming Approach:** Solving the 0/1 knapsack problem using dynamic programming.
+- **Variations:** Exploring different versions of the knapsack problem.
+
+## 7. Optimal Binary Search Trees
+
+- **Optimal Binary Search Tree Problem:** Formulating the problem of constructing a binary search tree for efficient searching.
+- **Dynamic Programming Solution:** Applying dynamic programming to find the optimal binary search tree.
+
+## 8. Chain Matrix Multiplication
+
+- **Problem Definition:** Optimizing the multiplication of a sequence of matrices.
+- **Dynamic Programming Solution:** Using dynamic programming to minimize the total number of scalar multiplications.
+
+## Resources
+
+- [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+- [TopCoder - Introduction to Dynamic Programming](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+- [Hackerearth - Dynamic Programming Tutorial](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/)
 
 ...
 
