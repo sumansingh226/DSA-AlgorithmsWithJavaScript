@@ -1,6 +1,4 @@
 
-
-
 const reverseWordsInString = ((str) => {
     let newStr = str.split(' ');
     let result = "";
