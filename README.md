@@ -903,7 +903,56 @@ Bit manipulation involves manipulating individual bits in a binary representatio
 
 ...
 
-## Backtracking
+# Backtracking
+
+Backtracking is a general algorithmic technique for solving problems that incrementally builds candidates for solutions and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution. Here are key topics related to backtracking:
+
+## 1. Introduction to Backtracking
+
+- **Definition:** Understanding the basic concept of backtracking as an algorithmic technique.
+- **Characteristics:** Identifying problems suitable for backtracking.
+
+## 2. Backtracking Process
+
+- **Decision Space:** Defining the space of possible solutions.
+- **Decision Tree:** Visualizing the exploration of solutions in a tree structure.
+- **Base Case:** Determining when to stop the exploration.
+
+## 3. N-Queens Problem
+
+- **Problem Statement:** Placing N queens on an N×N chessboard so that no two queens threaten each other.
+- **Backtracking Solution:** Using backtracking to find valid arrangements.
+
+## 4. Subset Sum Problem
+
+- **Problem Statement:** Finding a subset of given numbers that adds up to a given sum.
+- **Backtracking Approach:** Exploring different subsets to find a valid solution.
+
+## 5. Sudoku Solver
+
+- **Problem Statement:** Filling a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9.
+- **Backtracking Solution:** Solving Sudoku puzzles using backtracking.
+
+## 6. Hamiltonian Cycle
+
+- **Problem Statement:** Finding a cycle that visits every vertex exactly once in a graph.
+- **Backtracking Algorithm:** Exploring different paths in the graph to find a Hamiltonian cycle.
+
+## 7. Rat in a Maze
+
+- **Problem Statement:** Finding a path for a rat to reach the destination in a maze.
+- **Backtracking Solution:** Navigating through the maze to find a valid path.
+
+## 8. Graph Coloring
+
+- **Problem Statement:** Assigning colors to vertices of a graph such that no two adjacent vertices share the same color.
+- **Backtracking Approach:** Exploring different color assignments.
+
+## Resources
+
+- [GeeksforGeeks - Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
+- [Brilliant.org - Backtracking](https://brilliant.org/wiki/backtracking-basics/)
+- [Backtracking - YouTube Tutorial](https://www.youtube.com/watch?v=DKCbsiDBN6c)
 
 ...
 
