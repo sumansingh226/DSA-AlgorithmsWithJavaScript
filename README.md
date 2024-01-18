@@ -637,7 +637,37 @@ Binary trees are hierarchical data structures where each node has at most two ch
 
 ---
 
-## Heaps
+# Heaps
+
+## Introduction
+
+Heaps are specialized tree-based data structures with the key property that the value of each node is less than or equal to (or greater than or equal to) the values of its children. This property makes heaps suitable for efficient priority queue implementations.
+
+### Types of Heaps
+
+1. **Min Heap:**
+   - The value of each node is less than or equal to the values of its children. The minimum element is at the root.
+2. **Max Heap:**
+   - The value of each node is greater than or equal to the values of its children. The maximum element is at the root.
+
+### Operations
+
+1. **Insertion:**
+   - Adding a new element to the heap while maintaining the heap property.
+2. **Extraction:**
+   - Removing the minimum (or maximum) element from the heap and rearranging the remaining elements to maintain the heap property.
+
+### Applications
+
+1. **Priority Queues:**
+   - Heaps are widely used for efficient implementation of priority queues, allowing for constant-time retrieval of the minimum (or maximum) element.
+2. **Heap Sort:**
+   - Heap sort is a comparison-based sorting algorithm that builds a max heap and repeatedly extracts the maximum element.
+
+### Resources
+
+- [GeeksforGeeks - Heaps](https://www.geeksforgeeks.org/heap-data-structure/)
+- [Visualgo - Heap Visualization](https://visualgo.net/en/heap)
 
 ...
 
