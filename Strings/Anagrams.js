@@ -32,3 +32,21 @@ const checkIsGivenStringAnaGram = (inputString1, inputString12) => {
 console.log(checkIsGivenStringAnaGram("abcd", "dcba")); // Output: true
 console.log(checkIsGivenStringAnaGram("abcd", "abcde")); // Output: false
 console.log(checkIsGivenStringAnaGram("apple", "papel")); // Output: true
+
+/*Time Complexity:
+The time complexity of the areAnagrams function is O(n), where n is the total number of characters
+ in both input strings. This is because the function iterates through each character in both strings 
+ once to create the frequency counters, and then performs a comparison of the frequency counters,
+  which also takes
+  O(n) time.
+
+Space Complexity:
+The space complexity is O(c), where c is the total number of unique characters across both strings. 
+This is because the frequency counters are stored in objects, and the space required is proportional 
+to the number of unique characters. In the worst case, when the strings contain many unique characters, 
+the space complexity can approach O(n), but it is typically less than that.
+
+In summary:
+
+Time Complexity: O(n)
+Space Complexity: O(c), where c is the number of unique characters across both strings*/
