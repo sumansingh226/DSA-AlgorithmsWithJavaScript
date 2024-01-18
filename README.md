@@ -1156,7 +1156,62 @@ Segment Trees are a powerful data structure used for efficient querying of inter
 
 ...
 
-## Trie
+# Trie
+
+Trie, also known as a prefix tree, is a tree-like data structure that is used to store a dynamic set or associative array where the keys are strings. Tries are particularly useful for efficient string-related operations. Here are key topics related to tries:
+
+## 1. Introduction to Trie
+
+- **Definition:** Understanding the basic concept of a trie as a tree structure for storing strings.
+- **Use Cases:** Identifying scenarios where tries are advantageous.
+
+## 2. Structure of a Trie
+
+- **Node Representation:** Defining the structure of a trie node.
+- **Children Array:** Understanding how a node represents possible next characters.
+- **Root Node:** Special characteristics of the root node.
+
+## 3. Trie Operations
+
+- **Insertion:** Adding a new string to the trie.
+- **Deletion:** Removing a string from the trie.
+- **Search:** Checking whether a given string is present in the trie.
+
+## 4. Trie Construction
+
+- **Building a Trie:** Creating a trie by inserting strings one character at a time.
+- **Time Complexity:** Analyzing the time complexity of trie operations.
+
+## 5. Trie vs. Hash Table
+
+- **Comparison:** Contrasting tries with hash tables for string-related operations.
+- **Advantages and Disadvantages:** Identifying scenarios where one data structure is preferable.
+
+## 6. Trie Applications
+
+- **Autocomplete and Spell Checking:** Using tries to implement autocomplete suggestions and spell-checking.
+- **IP Routing and Longest Prefix Matching:** Applying tries in networking for IP address routing.
+
+## 7. Trie Variations
+
+- **Compressed Trie:** Reducing storage space by compressing common prefixes.
+- **Ternary Search Trie:** A balanced variant of the trie with three children per node.
+
+## 8. Suffix Trie
+
+- **Suffix Tree vs. Suffix Trie:** Understanding the connection between suffix trees and suffix tries.
+- **Applications:** Solving problems related to substring searching.
+
+## 9. Trie in Competitive Programming
+
+- **Typical Problems:** Exploring common algorithmic problems where tries are employed.
+- **Efficient Solutions:** Leveraging trie structures for optimized solutions.
+
+## Resources
+
+- [GeeksforGeeks - Trie](https://www.geeksforgeeks.org/trie-insert-and-search/)
+- [Brilliant.org - Trie](https://brilliant.org/wiki/tries/)
+- [Trie Data Structure - YouTube Tutorial](https://www.youtube.com/watch?v=AXjmTQ8LEoI)
 
 ...
 
