@@ -549,7 +549,50 @@ A queue is a fundamental First In, First Out (FIFO) data structure that manages 
 
 ...
 
-## Trees
+# Trees
+
+## Introduction
+
+Trees are hierarchical data structures widely used in computer science to represent relationships, hierarchies, and organized data. A tree consists of nodes connected by edges, forming a structure where each node has a parent-child relationship with others.
+
+### Basic Tree Components
+
+1. **Node:**
+   - The fundamental building block of a tree containing data and pointers to child nodes.
+2. **Root:**
+   - The topmost node in a tree, serving as the starting point for traversals.
+3. **Parent and Child:**
+   - Nodes in a tree have relationships; a parent node has child nodes, and child nodes have a parent.
+
+### Types of Trees
+
+1. **Binary Tree:**
+   - Each node can have at most two children: a left child and a right child.
+2. **Binary Search Tree (BST):**
+   - A binary tree with a specific ordering; the left child is less than the parent, and the right child is greater.
+3. **AVL Tree:**
+   - A self-balancing binary search tree to maintain logarithmic height, ensuring efficient operations.
+4. **B-Tree:**
+   - A balanced tree used for efficient searching in databases, particularly in file systems.
+
+### Common Operations
+
+1. **Traversal:**
+   - Traversing the nodes of a tree in a specific order: in-order, pre-order, and post-order traversal.
+2. **Insertion and Deletion:**
+   - Adding and removing nodes while maintaining the hierarchical structure.
+
+### Advanced Topics
+
+1. **Trie:**
+   - A tree-like data structure used for efficient searches of strings and dynamic sets.
+2. **Segment Tree:**
+   - A versatile data structure for handling range query operations on an array.
+
+## Resources
+
+- [GeeksforGeeks - Trees](https://www.geeksforgeeks.org/tree-data-structure/)
+- [Visualgo - Tree Visualization](https://visualgo.net/en/bst)
 
 ...
 
