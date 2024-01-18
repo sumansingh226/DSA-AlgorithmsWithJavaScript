@@ -671,7 +671,62 @@ Heaps are specialized tree-based data structures with the key property that the 
 
 ...
 
-## Hashing
+# Hashing
+
+Hashing is a technique used to map data of arbitrary size to fixed-size values, commonly for the purpose of faster data retrieval. It involves the use of a hash function to generate a unique identifier, or hash code, for each input. Here are some key topics related to hashing:
+
+## 1. Hash Functions
+
+A hash function is at the core of hashing. It takes an input (or 'key') and produces a fixed-size string of characters, which is typically a hash code. Some characteristics of a good hash function include:
+
+- **Deterministic:** The same input should always produce the same hash code.
+- **Efficient:** The hash function should be computationally efficient.
+- **Uniform Distribution:** The hash codes should be evenly distributed to avoid collisions.
+
+## 2. Collision Resolution
+
+Collisions occur when two different inputs produce the same hash code. Several methods can be employed to resolve collisions:
+
+- **Open Addressing:**
+
+  - Linear Probing
+  - Quadratic Probing
+  - Double Hashing
+
+- **Separate Chaining:**
+  - Each hash table slot maintains a linked list of collided elements.
+
+## 3. Hash Tables
+
+Hash tables are data structures that use hashing to implement an associative array, a structure that maps keys to values. Key components of hash tables include:
+
+- **Load Factor:** The ratio of the number of stored elements to the size of the table.
+- **Resizing:** Dynamic resizing helps maintain efficiency by adjusting the size of the hash table.
+
+## 4. Applications of Hashing
+
+Hashing is widely used in various computer science applications, including:
+
+- **Databases:** Hash functions index data, enabling faster retrieval.
+- **Cryptography:** Hash functions are essential for creating digital signatures.
+- **Caching:** Hashing is used for quick data lookup in caches.
+
+## 5. Cryptographic Hash Functions
+
+In addition to standard hash functions, cryptographic hash functions provide additional security features. Key characteristics include:
+
+- **Irreversibility:** It should be computationally infeasible to reverse the hash.
+- **Collision Resistance:** It should be difficult to find two inputs producing the same hash.
+
+## 6. Consistent Hashing
+
+Consistent hashing is a technique that minimizes the impact of adding or removing nodes from a distributed system. It provides a way to distribute keys across nodes with minimal rehashing.
+
+## Resources
+
+- [GeeksforGeeks - Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
+- [Wikipedia - Hash Function](https://en.wikipedia.org/wiki/Hash_function)
+- [Khan Academy - Hash Tables](https://www.khanacademy.org/computing/computer-science/algorithms/hash-tables/a/hash-tables)
 
 ...
 
