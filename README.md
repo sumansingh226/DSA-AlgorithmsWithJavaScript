@@ -971,7 +971,65 @@ Backtracking is a general algorithmic technique for solving problems that increm
 
 ...
 
-## Greedy Algorithms
+# Greedy Algorithms
+
+Greedy algorithms make locally optimal choices at each stage with the hope of finding a global optimum. They are often intuitive, easy to implement, and can be efficient in solving optimization problems. Here are key topics related to greedy algorithms:
+
+## 1. Introduction to Greedy Algorithms
+
+- **Definition:** Understanding the basic concept of greedy algorithms and their approach to problem-solving.
+- **Characteristics:** Identifying problems suitable for greedy strategies.
+
+## 2. Greedy Choice Property
+
+- **Greedy Choice:** Making the locally optimal choice at each stage of the algorithm.
+- **Optimal Substructure:** Solving subproblems independently to achieve the global optimum.
+
+## 3. Activity Selection Problem
+
+- **Problem Statement:** Selecting the maximum number of non-overlapping activities in a schedule.
+- **Greedy Solution:** Choosing activities based on their finish times.
+
+## 4. Huffman Coding
+
+- **Problem Statement:** Efficiently encoding data with variable-length codes to minimize the total encoded length.
+- **Greedy Solution:** Constructing a Huffman tree based on the frequency of characters.
+
+## 5. Kruskal's Minimum Spanning Tree Algorithm
+
+- **Problem Statement:** Finding the minimum spanning tree in a connected, undirected graph.
+- **Greedy Solution:** Sorting edges by weight and adding them to the minimum spanning tree.
+
+## 6. Prim's Minimum Spanning Tree Algorithm
+
+- **Problem Statement:** Another approach to finding the minimum spanning tree in a connected, undirected graph.
+- **Greedy Solution:** Building the minimum spanning tree by adding the nearest vertex.
+
+## 7. Dijkstra's Shortest Path Algorithm
+
+- **Problem Statement:** Finding the shortest paths from a source vertex to all other vertices in a weighted graph.
+- **Greedy Solution:** Selecting the vertex with the minimum distance at each step.
+
+## 8. Coin Change Problem
+
+- **Problem Statement:** Making change for a given amount using the fewest number of coins.
+- **Greedy Solution:** Choosing the largest denomination coins until the amount is reached.
+
+## 9. Fractional Knapsack Problem
+
+- **Problem Statement:** Maximizing the total value of items in a knapsack without exceeding its weight capacity.
+- **Greedy Solution:** Selecting items based on their value-to-weight ratios.
+
+## 10. Job Sequencing with Deadlines
+
+- **Problem Statement:** Scheduling jobs with deadlines and maximizing the total profit.
+- **Greedy Solution:** Sorting jobs by profit and scheduling them based on deadlines.
+
+## Resources
+
+- [GeeksforGeeks - Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
+- [Brilliant.org - Greedy Algorithms](https://brilliant.org/wiki/greedy-algorithm/)
+- [Greedy Algorithms - YouTube Tutorial](https://www.youtube.com/watch?v=wT1dti0vY4E)
 
 ...
 
