@@ -24,13 +24,7 @@ Welcome to the Frontend DSA (Data Structures and Algorithms) repository with Jav
 18. [Segment Trees](#segment-trees)
 19. [Trie](#trie)
 20. [Graph Algorithms](#graph-algorithms)
-21. [Geometry Algorithms](#geometry-algorithms)
-22. [Network Flow](#network-flow)
-23. [Concurrency and Parallelism in JavaScript](#concurrency-and-parallelism)
-24. [Web APIs and Asynchronous JavaScript](#web-apis-and-asynchronous-javascript)
-25. [Design Patterns in JavaScript](#design-patterns-in-javascript)
-26. [Testing in JavaScript](#testing-in-javascript)
-27. [Security Considerations in Web Development](#security-considerations-in-web-development)
+21. [Geometry Algorithms](#geometry-algorithms) 22.[Named Algorithms](#named-algorithms)
 
 ## Arrays
 
@@ -1340,34 +1334,8 @@ Geometry algorithms deal with solving problems related to geometric objects such
 
 ...
 
-## Network Flow
-
-...
-
-## Concurrency and Parallelism in JavaScript
-
-...
-
-## Web APIs and Asynchronous JavaScript
-
-...
-
-## Design Patterns in JavaScript
-
-...
-
-## Testing in JavaScript
-
-...
-
-## Security Considerations in Web Development
-
 ...
 
 ## Contributing
 
 If you would like to contribute to this repository by adding more topics, improving existing explanations, or fixing errors, please feel free to submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
