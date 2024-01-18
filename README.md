@@ -1098,7 +1098,61 @@ Divide and Conquer is a powerful algorithmic technique where a problem is divide
 
 ...
 
-## Segment Trees
+# Segment Trees
+
+Segment Trees are a powerful data structure used for efficient querying of intervals or ranges in an array. They enable various range-based operations in logarithmic time. Here are key topics related to segment trees:
+
+## 1. Introduction to Segment Trees
+
+- **Definition:** Understanding the basic concept of segment trees as a data structure.
+- **Use Cases:** Identifying scenarios where segment trees are beneficial.
+
+## 2. Structure of a Segment Tree
+
+- **Node Representation:** Defining the structure of a segment tree node.
+- **Building Blocks:** Understanding the components of a segment tree.
+
+## 3. Construction of a Segment Tree
+
+- **Recursive Build:** Constructing a segment tree using a recursive approach.
+- **Lazy Propagation:** Introducing lazy propagation for optimizing updates.
+
+## 4. Range Query Operations
+
+- **Querying a Range:** Performing range-based queries efficiently using segment trees.
+- **Sum of Elements:** Finding the sum of elements in a given range.
+- **Minimum and Maximum Queries:** Determining the minimum or maximum element in a range.
+
+## 5. Range Update Operations
+
+- **Updating a Range:** Modifying elements within a specified range using segment trees.
+- **Point Update vs. Range Update:** Comparing different update strategies.
+
+## 6. Lazy Propagation
+
+- **Lazy Update:** Delaying updates to optimize segment tree construction.
+- **Lazy Querying:** Efficiently handling range queries with lazy propagation.
+
+## 7. Applications of Segment Trees
+
+- **Interval Query Problems:** Solving problems that involve querying intervals or ranges.
+- **Sum or Min/Max Queries:** Examples of real-world applications.
+
+## 8. Fenwick Tree (Binary Indexed Tree)
+
+- **Alternative Data Structure:** Understanding the Fenwick tree as an alternative to segment trees.
+- **Point Queries and Updates:** Handling point-based queries and updates efficiently.
+
+## 9. Persistent Segment Trees
+
+- **Definition:** Introducing the concept of persistent segment trees.
+- **Time Travel Queries:** Solving queries for different versions of the underlying array.
+
+## Resources
+
+- [GeeksforGeeks - Segment Tree](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+- [CP-Algorithms - Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html)
+- [Segment Trees - YouTube Tutorial](https://www.youtube.com/watch?v=ZBHKZF5w4YU)
 
 ...
 
