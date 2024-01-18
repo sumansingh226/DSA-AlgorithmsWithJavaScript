@@ -1,3 +1,4 @@
+
 function generateFibonacci(n) {
     let fibSeries = [0, 1];
 
