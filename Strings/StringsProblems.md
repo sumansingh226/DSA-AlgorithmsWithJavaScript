@@ -2,7 +2,7 @@
 
 ## Basic Level
 
-- [ ] 1. Write a function to reverse a string.
+- [ ] Write a function to reverse a string.
 
 2. [ ] Implement a function to check if two strings are anagrams.
 3. [ ] Create a program to find the first non-repeated character in a string.
