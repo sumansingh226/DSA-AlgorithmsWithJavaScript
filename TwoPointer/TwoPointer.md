@@ -13,7 +13,9 @@ The two-pointer technique is a strategy used in algorithms to efficiently solve 
 ### 1. Two Pointers Approach
 
 - **Initialization**: Start with two pointers at different positions within the array or linked list.
+
 - **Traversal Criteria**: Move pointers based on certain conditions or criteria.
+
 - **Termination Condition**: Continue traversal until pointers meet or fulfill a specific condition.
 
 ### 2. Techniques
@@ -41,6 +43,11 @@ The two-pointer technique is a strategy used in algorithms to efficiently solve 
 - **Pointer Manipulation**: Adjust pointers based on specific conditions.
 - **Edge Cases**: Handle scenarios where pointers reach ends or null values.
 - # **Time Complexity**: Evaluate how this technique optimizes the solution.
+
+- # some use cases
+  use when array is sorted
+  descre time complexity
+  2 sum , or three suma problem
 
 # OR
 
