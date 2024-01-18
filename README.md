@@ -1215,7 +1215,66 @@ Trie, also known as a prefix tree, is a tree-like data structure that is used to
 
 ...
 
-## Graph Algorithms
+# Graph Algorithms
+
+Graph algorithms are essential for analyzing and solving problems related to graphs, which model relationships between entities. They are widely used in various computer science applications. Here are key topics related to graph algorithms:
+
+## 1. Graph Representation
+
+- **Adjacency Matrix:** Representing a graph using a 2D matrix.
+- **Adjacency List:** Representing a graph using a list of adjacent vertices.
+- **Graph Traversal:** Techniques for visiting all vertices in a graph.
+
+## 2. Depth-First Search (DFS)
+
+- **Traversal Algorithm:** Visiting vertices and exploring as far as possible along each branch before backtracking.
+- **Applications:** Solving problems like connected components, topological sorting, and cycle detection.
+
+## 3. Breadth-First Search (BFS)
+
+- **Traversal Algorithm:** Visiting vertices level by level, exploring neighbors before moving on to the next level.
+- **Applications:** Finding the shortest path, connected components, and network flow.
+
+## 4. Shortest Path Algorithms
+
+- **Dijkstra's Algorithm:** Finding the shortest paths from a source vertex to all other vertices in a weighted graph.
+- **Bellman-Ford Algorithm:** Handling negative weights in graphs.
+
+## 5. Minimum Spanning Tree
+
+- **Kruskal's Algorithm:** Constructing a minimum spanning tree in a connected, undirected graph.
+- **Prim's Algorithm:** Another approach to finding a minimum spanning tree.
+
+## 6. Topological Sorting
+
+- **Topological Order:** Defining a linear ordering of vertices in a directed acyclic graph (DAG).
+- **Applications:** Useful in scheduling and task ordering problems.
+
+## 7. Graph Cycle Detection
+
+- **Detecting Cycles:** Identifying cycles in a graph using algorithms like DFS.
+- **Directed Acyclic Graphs (DAGs):** Recognizing acyclic graphs.
+
+## 8. Graph Coloring
+
+- **Graph Coloring Problem:** Assigning colors to vertices of a graph such that no two adjacent vertices share the same color.
+- **Applications:** Solving scheduling and resource allocation problems.
+
+## 9. Network Flow
+
+- **Max Flow and Min Cut:** Defining the maximum flow through a network and the minimum cut required.
+- **Ford-Fulkerson Algorithm:** An algorithm for finding the maximum flow in a network.
+
+## 10. Bipartite Graphs
+
+- **Bipartite Graphs:** Identifying graphs whose vertices can be partitioned into two sets such that no edges connect vertices within the same set.
+- **Applications:** Solving problems related to matching and scheduling.
+
+## Resources
+
+- [GeeksforGeeks - Graph Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+- [Khan Academy - Graphs](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+- [Visualgo - Graph Visualization](https://visualgo.net/en/graphds)
 
 ...
 
