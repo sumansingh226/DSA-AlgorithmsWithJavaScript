@@ -852,7 +852,54 @@ Graphs are versatile data structures used to model relationships between entitie
 
 ...
 
-## Bit Manipulation
+# Bit Manipulation
+
+Bit manipulation involves manipulating individual bits in a binary representation of numbers. It is a powerful technique widely used in low-level programming, cryptography, and optimization. Here are key topics related to bit manipulation:
+
+## 1. Basics of Binary Representation
+
+- **Binary Numbers:** Understanding binary representation and converting between binary and decimal.
+- **Bitwise Operations:** Exploring basic bitwise operations: AND, OR, XOR, NOT.
+- **Bitwise Shifts:** Left and right shifts for efficiently manipulating bits.
+
+## 2. Bitwise Operations in Programming
+
+- **Setting and Clearing Bits:** Techniques for setting or clearing specific bits.
+- **Checking if a Bit is Set:** Verifying if a particular bit is set in a number.
+- **Toggle a Bit:** Flipping the state of a particular bit.
+
+## 3. Bitwise Tricks
+
+- **Swap Two Numbers:** Swapping two numbers without using a temporary variable.
+- **Detecting Opposite Signs:** Checking if two numbers have opposite signs using bitwise XOR.
+- **Absolute Value of a Number:** Finding the absolute value without branching.
+
+## 4. Bit Manipulation Techniques
+
+- **Counting Set Bits (Hamming Weight):** Determining the number of set bits in a number.
+- **Checking Power of 2:** Verifying if a number is a power of 2 using bitwise operations.
+- **Finding the Most Significant Bit:** Determining the position of the most significant set bit.
+
+## 5. Bitwise Manipulation in Data Structures
+
+- **Bitsets:** Utilizing bitsets for efficient storage of boolean values.
+- **Using Bits for Flags:** Storing multiple boolean flags in a single integer.
+
+## 6. Bitwise Operations in Algorithms
+
+- **Bitwise OR of Range:** Finding the bitwise OR of all elements in a range.
+- **Single Number Problem:** Solving problems where all elements occur twice except one.
+
+## 7. Bitwise Manipulation in Cryptography
+
+- **XOR Encryption:** Basics of XOR-based encryption and decryption.
+- **Bitwise Hashing:** Creating hash functions using bitwise operations.
+
+## Resources
+
+- [GeeksforGeeks - Bitwise Operators](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
+- [Hacker's Delight (Book)](https://www.hackersdelight.org/)
+- [Bit Manipulation - YouTube Tutorial](https://www.youtube.com/watch?v=NLKQEOgBAnw)
 
 ...
 
