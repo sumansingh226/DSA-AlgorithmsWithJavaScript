@@ -4,7 +4,6 @@ function findMaxElement(arr) {
     if (arr.length === 0) {
         return null; // Handle empty array case
     }
-
     let maxElement = arr[0];
 
     for (const element of arr) {
@@ -12,7 +11,6 @@ function findMaxElement(arr) {
             maxElement = element;
         }
     }
-
     return maxElement;
 }
 
