@@ -7,9 +7,9 @@ function findMaxElement(arr) {
 
     let maxElement = arr[0];
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > maxElement) {
-            maxElement = arr[i];
+    for (const element of arr) {
+        if (element > maxElement) {
+            maxElement = element;
         }
     }
 
