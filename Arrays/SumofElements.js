@@ -11,7 +11,6 @@ const sumOfElemets = ((array) => {
 
 });
 
-
 const array = [2, 5, -4, 7, 6]
 const result = sumOfElemets(array);
 console.log("sum of given elements ", result);
