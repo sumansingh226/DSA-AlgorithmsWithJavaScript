@@ -2,11 +2,14 @@ function isSorted(arr) {
     const n = arr.length;
 
     if (n <= 0) {
-        return `${arr} is not a soted array`
+        return `${arr} is Emty  array`;
     }
 
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < arr[i - 1]) return `${arr} is not a soted array`;
+    }
 
-
+    return `${arr} is  a soted array`;
 }
 
 // Example usage:
