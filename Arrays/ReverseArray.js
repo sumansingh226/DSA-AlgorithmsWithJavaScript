@@ -3,7 +3,7 @@
 
 const reverseGivenArray = ((arr) => {
     const reverseArray = [];
-    for (let index = arr.length; index > 0; index--) {
+    for (let index = arr.length - 1; index > 0; index--) {
         reverseArray.push(arr[index])
 
     }
