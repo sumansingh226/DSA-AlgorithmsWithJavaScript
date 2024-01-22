@@ -1,6 +1,9 @@
 function isSorted(arr) {
     const n = arr.length;
 
+    if (n <= 0) {
+        return `${arr} is not a soted array`
+    }
 
 
 
