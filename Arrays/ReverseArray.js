@@ -7,6 +7,7 @@ const reverseGivenArray = ((arr) => {
         reverseArray.push(arr[index])
 
     }
+    return reverseArray;
 })
 
 let arr = [1, 2, 3, 4, 5];
