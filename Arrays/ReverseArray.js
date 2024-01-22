@@ -2,8 +2,9 @@
 
 
 const reverseGivenArray = ((arr) => {
+    const reverseArray = [];
     for (let index = arr.length; index > 0; index--) {
-        const element = array[index];
+        reverseArray.push(arr[index])
 
     }
 })
