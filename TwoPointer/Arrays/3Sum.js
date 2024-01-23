@@ -37,6 +37,7 @@ console.log(threeSumBruteForce(nums, target));
 
 
 function threeSumClosest(nums, target) {
+    const result = [];
     nums.sort((a, b) => a - b);
     let closestSum = nums[0] + nums[1] + nums[2];
 
@@ -47,8 +48,9 @@ function threeSumClosest(nums, target) {
         while (j < k) {
             const sum = nums[i] + nums[j] + nums[k];
 
-            if (Math.abs(target - sum) < Math.abs(target - closestSum)) {
-                closestSum = sum;
+            if (sum === target) {
+                // If the sum is equal to the target, push the triplet into the 'result' array.
+                result.push([nums[i], nums[j], nums[k]]);
             }
 
             if (sum < target) {
@@ -59,7 +61,7 @@ function threeSumClosest(nums, target) {
         }
     }
 
-    return closestSum;
+    return result;
 }
 
 // Example usage:
