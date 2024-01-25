@@ -1,3 +1,7 @@
+
+// A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers. In other words, a prime number is a positive integer greater than 1 that has no positive divisors other than 1 and itself.
+
+
 function isPrime(number) {
     if (number <= 1) {
         return false;
