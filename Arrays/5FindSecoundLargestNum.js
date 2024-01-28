@@ -23,6 +23,6 @@ function findSecondLargest(arr) {
 }
 
 // Example usage:
-const array = [4, 7, 1, 9, 3, 8];
+const array = [8, 4, 7, 1, 9, 3];
 const secondLargest = findSecondLargest(array);
 console.log("Second Largest Element:", secondLargest);
