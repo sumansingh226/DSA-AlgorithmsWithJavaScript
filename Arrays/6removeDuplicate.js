@@ -17,4 +17,6 @@ function removeDuplicates(arr) {
 // Example usage:
 const array = [1, 2, 3, 4, 2, 5, 6, 1];
 const uniqueArray = removeDuplicates(array);
+console.log("Array with duplicates:", array);
+
 console.log("Array without duplicates:", uniqueArray);
