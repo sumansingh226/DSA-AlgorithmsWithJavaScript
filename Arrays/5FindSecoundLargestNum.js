@@ -1,4 +1,5 @@
 // 5. **Find the second largest element in an array.**
+
 function findSecondLargest(arr) {
     if (arr.length < 2) {
         return "Array should have at least two elements";
