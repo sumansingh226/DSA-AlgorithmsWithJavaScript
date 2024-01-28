@@ -13,7 +13,7 @@ function removeDuplicates(arr) {
 }
 
 // Example usage:
-const array = [1, 2, 3, 4, 2, 5, 6, 1];
+const array = [1, 1, 2, 5, 6, 5, 6];
 const uniqueArray = removeDuplicates(array);
 console.log("Array with duplicates:", array);
 
