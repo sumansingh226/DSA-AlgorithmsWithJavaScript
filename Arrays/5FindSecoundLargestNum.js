@@ -11,16 +11,14 @@ function findSecondLargest(arr) {
         if (arr[i] > largest) {
             secondLargest = largest;
             largest = arr[i];
-        } else if (arr[i] > secondLargest && arr[i] !== largest) {
+        } else if (arr[i] > secondLargest) {
             secondLargest = arr[i];
         }
     }
 
-    if (secondLargest === -Infinity) {
-        return "There is no second largest element in the array";
-    } else {
-        return secondLargest;
-    }
+    return secondLargest !== -Infinity
+        ? secondLargest
+        : "There is no second largest element in the array";
 }
 
 // Example usage:
