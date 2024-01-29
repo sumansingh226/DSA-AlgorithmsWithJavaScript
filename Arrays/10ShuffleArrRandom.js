@@ -1,5 +1,24 @@
 // 10. **Implement a function to shuffle an array randomly.**
 
+
+/*Shuffling an Array:
+
+Definition:
+
+Shuffling an array involves randomly rearranging the order of its elements to create a random permutation.
+Algorithm: Fisher-Yates Shuffle
+
+Iterates through the array from the end to the beginning.
+At each step, swaps the current element with a randomly chosen element that precedes it.
+Purpose:
+
+Introduces randomness and unpredictability to the order of elements in the array.
+Applications:
+
+Commonly used in games for randomizing elements.
+Useful in statistical experiments.
+Ensures fairness in algorithms or applications requiring randomization. */
+
 function shuffleArray(arr) {
     // Create a copy to avoid modifying the original array
     const shuffledArray = arr.slice();
