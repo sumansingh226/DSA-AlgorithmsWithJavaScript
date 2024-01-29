@@ -31,7 +31,7 @@ function mergeSortedArrays(arr1, arr2) {
 }
 
 // Example usage:
-const arr1 = [1, 3, 5, 7];
-const arr2 = [2, 4, 6, 8];
+const arr1 = [2, 4, 6, 8];
+const arr2 = [1, 3, 5, 7];
 console.log(mergeSortedArrays(arr1, arr2));
 
