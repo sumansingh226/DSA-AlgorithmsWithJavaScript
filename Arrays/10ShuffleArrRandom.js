@@ -10,11 +10,9 @@ function shuffleArray(arr) {
 
         // Swap elements at indices i and j
         [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
-
     }
 
     return shuffledArray;
-
 }
 
 // Example usage:
