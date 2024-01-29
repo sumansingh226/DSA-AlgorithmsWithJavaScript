@@ -21,11 +21,15 @@ function mergeTwoSortedArray(arr1, arr2) {
         i++;
     }
 
+    // Push remaining elements of arr2, if any
+    while (j < arr2.length) {
+        mergedArray.push(arr2[j]);
+        j++;
+    }
 
     return mergedArray;
 }
 
-
 const sortedArray1 = [1, 2, 3, 4, 5];
 const sortedArray2 = [6, 7, 8, 9, 10];
-mergeTwoSortedArray()
+mergeTwoSortedArray();
