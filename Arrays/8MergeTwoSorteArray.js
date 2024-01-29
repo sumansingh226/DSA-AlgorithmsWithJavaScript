@@ -15,6 +15,11 @@ function mergeTwoSortedArray(arr1, arr2) {
         }
     }
 
+    // Push remaining elements of arr1, if any
+    while (i < arr1.length) {
+        mergedArray.push(arr1[i]);
+        i++;
+    }
 
 
     return mergedArray;
