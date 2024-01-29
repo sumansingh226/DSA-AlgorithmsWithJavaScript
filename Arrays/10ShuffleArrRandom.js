@@ -8,6 +8,8 @@ function shuffleArray(arr) {
         // Generate a random index between 0 and i (inclusive)
         const j = Math.floor(Math.random() * (i + 1));
 
+        // Swap elements at indices i and j
+        [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
 
     }
 
