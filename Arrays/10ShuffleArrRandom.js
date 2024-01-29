@@ -1,6 +1,10 @@
 // 10. **Implement a function to shuffle an array randomly.**
 
 function shuffleArray(arr) {
+    // Create a copy to avoid modifying the original array
+    const shuffledArray = arr.slice();
+    const n = shuffledArray.length;
+
 
 }
 
