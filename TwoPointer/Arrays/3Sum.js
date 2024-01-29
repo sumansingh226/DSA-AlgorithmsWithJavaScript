@@ -39,7 +39,6 @@ console.log(threeSumBruteForce(nums, target));
 function threeSumClosest(nums, target) {
     const result = [];
     nums.sort((a, b) => a - b);
-    let closestSum = nums[0] + nums[1] + nums[2];
 
     for (let i = 0; i < nums.length - 2; i++) {
         let j = i + 1;
