@@ -12,3 +12,7 @@ function hasPairWithSum(arr, target) {
     }
     return false;
 }
+
+const arr = [1, 2, 3, 5, 6, 9];
+const targetSum = 12;
+hasPairWithSum(arr, targetSum)
