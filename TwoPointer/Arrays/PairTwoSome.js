@@ -5,9 +5,10 @@
 
 function hasPairWithSum(arr, target) {
     let left = 0, right = arr.length - 1;
+    let pair = [];
     while (left < right) {
         const currentSum = arr[left] + arr[right];
-        if (currentSum === target) return true;
+        if (currentSum === target) { return { dosePairexist: true, pair: pair.push([arr[left], arr[right]]) } }
         if (currentSum < target) left++;
         else right--;
     }
