@@ -1,3 +1,5 @@
+
+
 function hasPairWithSum(arr, target) {
     let left = 0, right = arr.length - 1;
     while (left < right) {
