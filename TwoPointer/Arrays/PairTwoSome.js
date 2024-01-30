@@ -5,17 +5,27 @@
 
 function hasPairWithSum(arr, target) {
     let left = 0, right = arr.length - 1;
-    let pair = [];
+
     while (left < right) {
         const currentSum = arr[left] + arr[right];
-        if (currentSum === target) { return { dosePairexist: true, pair: pair.push([arr[left], arr[right]]) } }
+
+        if (currentSum === target) {
+            // Return an object indicating the pair exists and provide the pair array
+            return { doesPairExist: true, pair: [arr[left], arr[right]] };
+        }
+
         if (currentSum < target) left++;
         else right--;
     }
-    return false;
+
+    // If no pair is found, return an object indicating that
+    return { doesPairExist: false, pair: [] };
 }
+
+
 
 const arr = [1, 2, 3, 5, 6, 9];
 const targetSum = 12;
 const result = hasPairWithSum(arr, targetSum)
-console.log(result);
+console.log("pairExist", result.doesPairExist);
+console.log("pair", result.pair);
