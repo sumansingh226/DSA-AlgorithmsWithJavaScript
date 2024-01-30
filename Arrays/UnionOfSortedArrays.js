@@ -42,4 +42,4 @@ function findUnion(arr1, arr2) {
 const arr1 = [1, 3, 4, 5, 7];
 const arr2 = [2, 3, 5, 6];
 const union = findUnion(arr1, arr2);
-console.log(union); // Output: [1, 2, 3, 4, 5, 6, 7]
+console.log(union); 
