@@ -1,6 +1,5 @@
 // 10. **Implement a function to shuffle an array randomly.**
 
-
 /*Shuffling an Array:
 
 Definition:
@@ -21,16 +20,15 @@ Ensures fairness in algorithms or applications requiring randomization. */
 
 function shuffleArray(arr) {
     // Create a copy to avoid modifying the original array
-    const shuffledArray = arr.slice();
-    const n = shuffledArray.length;
-    for (let i = n - 1; i > 0; i--) {
-        // Generate a random index between 0 and i (inclusive)
-        const j = Math.floor(Math.random() * (i + 1));
+    let shuffledArray = arr;
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+        // Pick a random index from 0 to i inclusive
+        let j = Math.floor(Math.random() * (i + 1));
 
-        // Swap elements at indices i and j
+        // Swap arr[i] with the element
+        // at random index
         [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
     }
-
     return shuffledArray;
 }
 
