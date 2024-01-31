@@ -16,7 +16,7 @@ const findFirstNonReptCharInString = str => {
     }
     for (const value of str) {
         if (frequnecyOfChars[value] === 1) {
-            return frequnecyOfChars[value]
+            return value
         }
 
     }
@@ -25,3 +25,4 @@ const findFirstNonReptCharInString = str => {
 
 let input = "suman singh";
 const result = findFirstNonReptCharInString(input);
+console.log(result);
