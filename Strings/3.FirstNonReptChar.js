@@ -23,6 +23,6 @@ const findFirstNonReptCharInString = str => {
     console.log("frequnecyOfChars", frequnecyOfChars);
 }
 
-let input = "suman singh";
+let input = "programming";
 const result = findFirstNonReptCharInString(input);
 console.log(result);
