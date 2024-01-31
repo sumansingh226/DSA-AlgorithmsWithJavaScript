@@ -5,7 +5,7 @@
 1. [*] Write a function to reverse a string.
 2. [*] Implement a function to check if two strings are anagrams.
 3. [*] Create a program to find the first non-repeated character in a string.
-4. [ ] Write a function to remove duplicate characters from a string.
+4. [*] Write a function to remove duplicate characters from a string.
 5. [ ] Implement a function to count the number of vowels in a string.
 6. [ ] Create a program to check if a string is a palindrome.
 7. [ ] Write a function to replace all spaces in a string with '%20'.
