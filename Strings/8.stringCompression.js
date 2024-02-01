@@ -6,11 +6,12 @@ const basicStringCompression = str => {
     let compressedStr = "";
 
     for (const value of str) {
-        countCharFrequency[value] === value ? countCharFrequency[value] += 1 : countCharFrequency[value] = 1;
+        countCharFrequency[value] ? countCharFrequency[value] += 1 : countCharFrequency[value] = 1;
     }
     for (const key in countCharFrequency) {
-        console.log(key);
+        compressedStr += `${key}${countCharFrequency[key]}`
     }
+    return compressedStr
 
 }
 
