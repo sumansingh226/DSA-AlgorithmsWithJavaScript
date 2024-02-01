@@ -1,30 +1,32 @@
 // 4. [ *] Write a function to remove duplicate characters from a string.
 
-const removeDuplicatChars = str => {
+const removeDuplicateChars = str => {
+    let charFrequency = {};
+    let removeDuplicate = "";
 
-    let charFreqency = {};
-    let removeDulpcate = "";
-
+    // Count the frequency of each character
     for (const char of str) {
-        if (charFreqency[char]) charFreqency[char] += 1;
-        else charFreqency[char] = 1;
-    }
-    for (const char of str) {
-        if (charFreqency[char] > 1) {
-            charFreqency[char] -= 1;
+        if (charFrequency[char]) {
+            charFrequency[char] += 1;
+        } else {
+            charFrequency[char] = 1;
         }
-
     }
+
+    // Build the string with unique characters
     for (const char of str) {
-        if (charFreqency[char] === 1) {
-            removeDulpcate += char;
+        if (charFrequency[char] === 1) {
+            removeDuplicate += char;
+            charFrequency[char] = 0; // Set the frequency to 0 to avoid duplicates
         }
-
     }
-    return removeDulpcate;
+
+    return removeDuplicate;
 }
 
-
 const str = "abcdabcd";
-const result = removeDuplicatChars(str);
+const result = removeDuplicateChars(str);
 console.log(result);
+
+
+
