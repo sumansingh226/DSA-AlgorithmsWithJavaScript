@@ -3,11 +3,12 @@
 
 const idStringPalindrome = str => {
     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-
-    for (const value of cleanStr) {
-        console.log(value);
+    let reverseStr = "";
+    for (let index = cleanStr.length - 1; index > 0; index--) {
+        reverseStr += cleanStr[index];
     }
+    return reverseStr;
 }
 
 const inputStr = "A man, a plan, a canal, Panama!"
-idStringPalindrome(inputStr);
+const result = idStringPalindrome(inputStr);
