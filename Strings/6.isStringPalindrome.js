@@ -4,7 +4,9 @@
 const idStringPalindrome = str => {
     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
-
+    for (const value of cleanStr) {
+        console.log(value);
+    }
 }
 
 const inputStr = "A man, a plan, a canal, Panama!"
