@@ -1,7 +1,7 @@
 
 // 7. [ ] Write a function to replace all spaces in a string with '%20'.
 
-function replaceSpacesWithoutBuiltIn(inputString) {
+const replaceSpacesWithoutBuiltIn = (inputString) => {
     let result = '';
     for (const char of inputString) {
         if (char === ' ') {
