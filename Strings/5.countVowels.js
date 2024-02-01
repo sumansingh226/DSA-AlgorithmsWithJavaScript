@@ -4,10 +4,20 @@
 
 
 const countNumberOfVowles = str => {
+    const vowlesInAlphabets = ['a', 'e', 'i', 'o', 'u'];
+    let vowlesInString = [];
 
+
+    for (const char of str) {
+        if (vowlesInAlphabets.includes(char) && !vowlesInString.includes(char)) {
+            vowlesInString.push(char)
+        }
+
+    }
+    return vowlesInString;
 }
 
-const inputStr = "My Name is Suman Singh. i'm a software engineer."
+const inputStr = "My Name is Suman Singh. "
 
 const result = countNumberOfVowles(inputStr)
-console.log("vowles presnt in string ",);
+console.log("vowles presnt in string ", result);
