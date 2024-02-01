@@ -3,11 +3,11 @@
 
 function replaceSpacesWithoutBuiltIn(inputString) {
     let result = '';
-    for (let i = 0; i < inputString.length; i++) {
-        if (inputString[i] === ' ') {
+    for (const char of inputString) {
+        if (char === ' ') {
             result += '%20';
         } else {
-            result += inputString[i];
+            result += char;
         }
     }
     return result;
