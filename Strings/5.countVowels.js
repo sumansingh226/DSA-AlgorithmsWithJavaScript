@@ -14,8 +14,6 @@ const countNumberOfVowles = (str) => {
 };
 
 const inputStr = "My Name is Suman Singh. ";
-
 const result = countNumberOfVowles(inputStr);
 console.log("vowles presnt in string :", result);
-
 console.log("number vowles presnt in string :", result.length);
