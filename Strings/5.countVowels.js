@@ -7,7 +7,6 @@ const countNumberOfVowles = str => {
     const vowlesInAlphabets = ['a', 'e', 'i', 'o', 'u'];
     let vowlesInString = [];
 
-
     for (const char of str) {
         if (vowlesInAlphabets.includes(char) && !vowlesInString.includes(char)) {
             vowlesInString.push(char)
