@@ -5,9 +5,9 @@
 
 const arr = [-1, 2, -6, 0, 3, 4, 5, 6];
 
-function double(x) {
-    return x > 0;
+function isOdd(x) {
+    return x % 2 == 0;
 }
 
-const output = arr.filter(double);
+const output = arr.filter(isOdd);
 console.log("output", output);
