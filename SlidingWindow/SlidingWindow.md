@@ -4,6 +4,12 @@
 
 The Sliding Window pattern is a technique used in solving problems involving arrays and strings. It efficiently finds subarrays or substrings that fulfill certain conditions by maintaining a window of elements and moving it across the array or string.
 
+# types
+
+# 1 fixed size
+
+# 2 variable size
+
 ## Basic Steps
 
 1. **Initialize**: Set up variables to define the starting point of the window and initialize any necessary data structures.
