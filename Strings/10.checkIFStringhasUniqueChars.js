@@ -24,7 +24,7 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
     }
 };
 
-const inputString = "suman ";
+const inputString = "suman";
 
 const result = checkIfStrinhHasAllUniqueChars(inputString);
 console.log(result);
