@@ -8,7 +8,7 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
     }
     const countCharFrequency = {};
 
-    for (let index = 0; index < array.length; index++) {
+    for (let i = 0; i < str.length; i++) {
 
         if (countCharFrequency[str[i]]) countCharFrequency[str[i]] += 1; else
             countCharFrequency[str[i]] = 1;
@@ -16,10 +16,10 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
     for (const value in countCharFrequency) {
         if (countCharFrequency[value] > 1
         ) {
-            return `${str} contain  duplicat value`
+            return `String "${str}"  contain  duplicat value`
         }
         else
-            return `${str} has all   unique  value`
+            return `String "${str}" has all   unique  characters`
 
     }
 };
@@ -27,3 +27,4 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
 const inputString = "suman ";
 
 const result = checkIfStrinhHasAllUniqueChars(inputString);
+console.log(result);
