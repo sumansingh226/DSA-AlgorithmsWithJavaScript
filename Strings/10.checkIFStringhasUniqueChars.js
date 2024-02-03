@@ -13,6 +13,15 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
         if (countCharFrequency[str[i]]) countCharFrequency[str[i]] += 1; else
             countCharFrequency[str[i]] = 1;
     }
+    for (const value in countCharFrequency) {
+        if (countCharFrequency[value] > 1
+        ) {
+            return `${str} contain  duplicat value`
+        }
+        else
+            return `${str} has all   unique  value`
+
+    }
 };
 
 const inputString = "suman ";
