@@ -28,3 +28,7 @@ const inputString = "Suman singh";
 
 const result = checkIfStrinhHasAllUniqueChars(inputString);
 console.log(result);
+
+
+// Time Complexity: O(n)
+// Space Complexity: O(k)
