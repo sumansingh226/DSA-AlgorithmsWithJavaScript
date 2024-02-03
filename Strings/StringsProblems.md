@@ -10,7 +10,7 @@
 6. [*] Create a program to check if a string is a palindrome.
 7. [*] Write a function to replace all spaces in a string with '%20'.
 8. [*] Implement a function to perform basic string compression using the counts of repeated characters.
-9. [ ] Create a program to find the longest common prefix among an array of strings.
+9. [*] Create a program to find the longest common prefix among an array of strings.
 10. [ ] Write a function to check if a string has all unique characters.
 
 ## Mid-Level
