@@ -38,11 +38,46 @@ The Divide and Conquer method is an algorithmic paradigm that involves breaking 
 - **Description:** Searches for a target value in a sorted array by dividing it into halves and eliminating half of the remaining elements at each step.
 - **Application:** Efficient searching algorithm with a time complexity of O(log n).
 
-## Advantages of Divide and Conquer
+## Example Problem: Maximum Element in an Array
 
-- Often leads to efficient algorithms with improved time complexity.
-- Well-suited for parallelization, as subproblems can be solved independently.
+### Problem Statement
 
-## Conclusion
+Given an array of numbers, find the maximum element.
 
-The Divide and Conquer method is a powerful approach to algorithm design, providing a structured way to break down complex problems and solve them efficiently.
+### Divide
+
+- Break the array into two halves.
+
+### Conquer
+
+- Recursively find the maximum element in each half.
+
+### Combine
+
+- Compare the maximum elements from the two halves and return the larger one as the overall maximum.
+
+### JavaScript Implementation
+
+```javascript
+function findMax(arr, start, end) {
+  // Base case: when the array has only one element
+  if (start === end) {
+    return arr[start];
+  }
+
+  // Divide: Find the middle index
+  const mid = Math.floor((start + end) / 2);
+
+  // Conquer: Recursively find the maximum in each half
+  const maxLeft = findMax(arr, start, mid);
+  const maxRight = findMax(arr, mid + 1, end);
+
+  // Combine: Compare and return the larger of the two maximums
+  return Math.max(maxLeft, maxRight);
+}
+
+// Example usage
+const array = [3, 7, 1, 9, 5, 2, 8, 4];
+const maxElement = findMax(array, 0, array.length - 1);
+console.log("Maximum element:", maxElement);
+```
