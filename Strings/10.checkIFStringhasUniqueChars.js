@@ -1,17 +1,17 @@
 // 10. [*] Write a function to check if a string has all unique characters.
 
 const checkIfStrinhHasAllUniqueChars = (str) => {
-
+    const inputStr = str.toLowerCase();
     // check if string is non-empty
-    if (str.length <= 0) {
+    if (inputStr.length <= 0) {
         return "string must be contain some characters";
     }
     const countCharFrequency = {};
 
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0; i < inputStr.length; i++) {
 
-        if (countCharFrequency[str[i]]) countCharFrequency[str[i]] += 1; else
-            countCharFrequency[str[i]] = 1;
+        if (countCharFrequency[inputStr[i]]) countCharFrequency[inputStr[i]] += 1; else
+            countCharFrequency[inputStr[i]] = 1;
     }
     for (const value in countCharFrequency) {
         if (countCharFrequency[value] > 1
@@ -24,7 +24,7 @@ const checkIfStrinhHasAllUniqueChars = (str) => {
     }
 };
 
-const inputString = "suman";
+const inputString = "Suman singh";
 
 const result = checkIfStrinhHasAllUniqueChars(inputString);
 console.log(result);
