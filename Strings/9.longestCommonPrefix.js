@@ -1,7 +1,7 @@
 // 9. [*] Create a program to find the longest common prefix among an array of strings.
 
 
-function longestCommonPrefix(strings) {
+const longestCommonPrefix = (strings) => {
     if (strings.length === 0) {
         return "";
     }
