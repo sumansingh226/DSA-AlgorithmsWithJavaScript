@@ -16,4 +16,4 @@ const revreseWordsInString = str => {
 }
 
 const inputString = "This is a String";
-revreseWordsInString(inputString)
+const result = revreseWordsInString(inputString)
