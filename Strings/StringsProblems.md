@@ -15,7 +15,7 @@
 
 ## Mid-Level
 
-11. [ ] Implement a function to reverse words in a given string.
+11. [*] Implement a function to reverse words in a given string.
 12. [ ] Create a program to find the longest palindrome substring in a string.
 13. [ ] Write a function to check if one string is a rotation of another.
 14. [ ] Implement a function to perform string matching using the Knuth-Morris-Pratt algorithm.
