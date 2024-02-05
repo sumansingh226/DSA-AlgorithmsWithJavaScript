@@ -4,15 +4,16 @@
 const revreseWordsInString = str => {
     let inputString = str;
     inputString = inputString.split(' ');
+    let reverseString = "";
 
     // string , it must have somewords , it should not be empty 
     if (inputString.length <= 0) {
         return "String mshould be contain some words to return"
     }
-    for (let index = inputString.length; index > 0; index--) {
-        inputString += inputString[i]
+    for (let index = inputString.length - 1; index >= 0; index--) {
+        reverseString += `${inputString[index]} `
     }
-    return inputString;
+    return reverseString;
 }
 
 const inputString = "This is a String";
