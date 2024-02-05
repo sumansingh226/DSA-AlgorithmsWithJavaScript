@@ -93,3 +93,8 @@ obj2.x()
 // this keyword in dom
 // value is reference  to html element 
 
+
+let arr1 = [1, 2, 5]
+let arr2 = [1, 2, 5]
+arr1 = [...arr1, ...arr2]
+console.log("arr1", arr1);
