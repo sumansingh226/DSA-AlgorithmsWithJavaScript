@@ -19,7 +19,7 @@
 12. [ ] Create a program to find the longest palindrome substring in a string.
 13. [ ] Write a function to check if one string is a rotation of another.
 14. [ ] Implement a function to perform string matching using the Knuth-Morris-Pratt algorithm.
-15. [ ] Create a program to count the number of occurrences of a character in a string.
+15. [*] Create a program to count the number of occurrences of a character in a string.
 16. [ ] Write a function to convert a string to an integer (atoi).
 17. [ ] Implement a function to perform string matching using the Boyer-Moore algorithm.
 18. [ ] Create a program to find the shortest common supersequence of two strings.
