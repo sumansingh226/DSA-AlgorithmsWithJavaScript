@@ -2,14 +2,13 @@
 
 
 const occurenceOfChar = str => {
-    const charOccurence = {};
+    let charOccurence = {};
     for (const value of str) {
-
-        if (charOccurence[str[value]]) {
-            charOccurence[str[value]] += 1;
+        if (charOccurence[value] === value) {
+            charOccurence[value] += 1;
         }
         else {
-            charOccurence[str[value]] += 1;
+            charOccurence[value] = 1;
         }
     }
     return charOccurence;
