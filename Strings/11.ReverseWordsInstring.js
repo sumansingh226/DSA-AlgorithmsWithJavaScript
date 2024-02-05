@@ -16,4 +16,6 @@ const revreseWordsInString = str => {
 }
 
 const inputString = "This is a String";
-const result = revreseWordsInString(inputString)
+const result = revreseWordsInString(inputString);
+console.log('original string', inputString);
+console.log('output reversed string', result);
