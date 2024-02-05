@@ -2,18 +2,19 @@
 
 
 const occurenceOfChar = str => {
+    const inputStr = str.toLowerCase();
     let charOccurence = {};
-    for (const value of str) {
-        if (charOccurence[value] === value) {
+    for (const value of inputStr) {
+        if (charOccurence[value]) {
             charOccurence[value] += 1;
         }
         else {
             charOccurence[value] = 1;
         }
     }
-    return charOccurence;
+    return JSON.stringify(charOccurence);
 }
 
-const inputString = "SumanSingh"
+const inputString = "Sumansinghchauhan"
 const result = occurenceOfChar(inputString);
 console.log("char occurence of String :", result);
