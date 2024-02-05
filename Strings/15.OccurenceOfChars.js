@@ -12,8 +12,9 @@ const occurenceOfChar = str => {
             charOccurence[value] += 1;
         }
     }
-
+    return charOccurence;
 }
 
 const inputString = "SumanSingh"
-occurenceOfChar(inputString);
+const result = occurenceOfChar(inputString);
+console.log("char occurence of String :", result);
