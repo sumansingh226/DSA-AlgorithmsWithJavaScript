@@ -24,3 +24,4 @@ const checkIsArrayPalidndrome = arr => {
 
 const inputArray = [4, 5, 5, 4];
 const result = checkIsArrayPalidndrome(inputArray)
+console.log(result);
