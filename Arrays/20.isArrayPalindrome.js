@@ -18,4 +18,4 @@ const checkIsArrayPalindrome = (arr) => {
 
 const inputArray1 = [1, 2, 3, 2, 1, 6];
 const inputArray2 = [1, 2, 3, 2, 1];
-const result = checkIsArrayPalindrome(inputArray1);
+checkIsArrayPalindrome(inputArray1);
