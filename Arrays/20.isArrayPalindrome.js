@@ -9,9 +9,11 @@ const checkIsArrayPalidndrome = arr => {
     //if revrese the  elemnts it should be same 
     let givenArray = arr;
 
-    for (let index = givenArray.length - 1; index >= 0; index--) {
-        if (givenArray[index] !== arr[index]) {
-            return 'given array is not palindrome';
+    for (let i = givenArray.length - 1; i >= 0; i--) {
+        for (let j = 0; j < array.length; j++) {
+            if (givenArray[i] !== arr[i]) {
+                return 'given array is not palindrome';
+            }
         }
 
     }
