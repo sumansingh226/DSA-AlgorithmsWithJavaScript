@@ -3,26 +3,18 @@
 //palidrome means if we revrese and array it should be same 
 
 
-const checkIsArrayPalidndrome = arr => {
-
-    //  array should not be empty 
-    //if revrese the  elemnts it should be same 
-    let givenArray = arr;
-
-    for (let i = givenArray.length - 1; i >= 0; i--) {
-        for (let j = 0; j < j; j++) {
-            console.log("givenArray[i] !== givenArray[j]", givenArray[i], givenArray[j]);
-            // if (givenArray[i] !== givenArray[j]) {
-            //     return 'given array is not palindrome';
-            // }
+const checkIsArrayPalindrome = arr => {
+    // Loop through the array from start to end and from end to start simultaneously
+    for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
+        // Compare elements at the current positions
+        if (arr[i] !== arr[j]) {
+            return 'given array is not palindrome';
         }
-
     }
 
-    return 'given array is  palindrome';
-
+    return 'given array is palindrome';
 }
 
 const inputArray = [1, 2, 3, 2, 1];
-const result = checkIsArrayPalidndrome(inputArray)
-console.log(result);
+const result = checkIsArrayPalindrome(inputArray);
+console.log(result); // Output: given array is palindrome
