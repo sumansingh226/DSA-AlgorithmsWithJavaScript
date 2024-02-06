@@ -15,6 +15,6 @@ const checkIsArrayPalindrome = arr => {
     return 'given array is palindrome';
 }
 
-const inputArray = [1, 2, 3, 2, 1];
+const inputArray = [1, 2, 3, 2, 1, 5];
 const result = checkIsArrayPalindrome(inputArray);
 console.log(result); // Output: given array is palindrome
