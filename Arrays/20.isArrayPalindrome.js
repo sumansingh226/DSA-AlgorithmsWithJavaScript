@@ -1,24 +1,20 @@
 // 20. **Determine if a given array is a palindrome.**
 
-//palidrome means if we revrese and array it should be same 
+//palidrome means if we revrese and array it should be same
 
-const checkIsArrayPalindrome = arr => {
-
+const checkIsArrayPalindrome = (arr) => {
     let i = 0;
     let j = arr.length - 1;
 
     while (i < j) {
         if (arr[i] !== arr[j]) {
-            console.log('given array is not palindrome');
-
+            console.log("given array is not palindrome");
         }
         i++;
         j--;
-
     }
-
-    console.log('given array is palindrome');
-}
+    console.log("given array is palindrome");
+};
 
 const inputArray = [1, 2, 3, 2, 1, 6];
 const result = checkIsArrayPalindrome(inputArray);
