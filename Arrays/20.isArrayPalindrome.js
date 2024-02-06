@@ -8,15 +8,15 @@ const checkIsArrayPalindrome = (arr) => {
 
     while (i < j) {
         if (arr[i] !== arr[j]) {
-            console.log("given array is not palindrome");
+            return console.log(`given array ${arr} is not palindrome"`);
         }
         i++;
         j--;
     }
-    console.log("given array is palindrome");
+    return console.log(`given array ${arr} is palindrome"`);
 };
 
-const inputArray1 = [1, 2, 3, 2, 1, 6];
-const inputArray2 = [1, 2, 3, 2, 1];
+const inputArray1 = [1, 2, 3, 2, 1];
+const inputArray2 = [1, 2, 3, 2, 1, 0];
 checkIsArrayPalindrome(inputArray1);
 checkIsArrayPalindrome(inputArray2);
