@@ -10,10 +10,11 @@ const checkIsArrayPalidndrome = arr => {
     let givenArray = arr;
 
     for (let i = givenArray.length - 1; i >= 0; i--) {
-        for (let j = 0; j < givenArray.length; j++) {
-            if (givenArray[i] !== givenArray[j]) {
-                return 'given array is not palindrome';
-            }
+        for (let j = 0; j < j; j++) {
+            console.log("givenArray[i] !== givenArray[j]", givenArray[i], givenArray[j]);
+            // if (givenArray[i] !== givenArray[j]) {
+            //     return 'given array is not palindrome';
+            // }
         }
 
     }
