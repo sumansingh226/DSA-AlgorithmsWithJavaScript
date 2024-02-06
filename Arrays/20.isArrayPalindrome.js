@@ -2,7 +2,6 @@
 
 //palidrome means if we revrese and array it should be same 
 
-
 const checkIsArrayPalindrome = arr => {
     // Loop through the array from start to end and from end to start simultaneously
     for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
