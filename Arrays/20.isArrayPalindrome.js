@@ -22,4 +22,3 @@ const checkIsArrayPalindrome = arr => {
 
 const inputArray = [1, 2, 3, 2, 1, 6];
 const result = checkIsArrayPalindrome(inputArray);
-console.log(result); 
