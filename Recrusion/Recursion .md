@@ -31,3 +31,19 @@ Nested recursion occurs when a recursive function passes the result of its recur
 ### 6. Indirect Recursion
 
 Indirect recursion occurs when a function calls another function that eventually calls the first function in a cycle.
+
+### 6. Recursion Tree
+
+basicRecursion(3)
+│
+├── basicRecursion(2)
+│ │
+│ ├── basicRecursion(1)
+│ │ │
+│ │ └── basicRecursion(0)
+│ │ │
+│ │ └── basicRecursion(-1) (base case)
+│ │
+│ └── basicRecursion(-1) (base case)
+│
+└── basicRecursion(-1) (base case)
