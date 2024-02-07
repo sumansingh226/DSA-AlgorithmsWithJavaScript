@@ -1,4 +1,4 @@
-1. [ ] Two Sum: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+1. [ *] Two Sum: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 2. [ ] Squares of a Sorted Array: Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 3. [ ] Remove Duplicates from Sorted Array: Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
 4. [ ] Remove Element: Given an array nums and a value val, remove all instances of that value.
