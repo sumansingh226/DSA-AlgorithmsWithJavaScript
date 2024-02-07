@@ -30,4 +30,5 @@ function twoSum(nums, target) {
 
 // Example usage:
 const nums = [2, 7, 11, 15];
-con
+const result = twoSum(nums, 22)
+console.log(result);
