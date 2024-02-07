@@ -6,7 +6,6 @@ function throttle(func, delay) {
         if (now - lastCalled < delay) {
             return;
         }
-
         lastCalled = now;
         func.apply(this, args);
     };
