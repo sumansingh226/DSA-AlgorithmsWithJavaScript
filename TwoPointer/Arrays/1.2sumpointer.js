@@ -1,7 +1,6 @@
 // 1. [ ] Two Sum: Given an array of integers, return indices of the two numbers such 
 // that they add up to a specific target.
 
-
 function twoSum(nums, target) {
     // Sort the array to use two-pointer technique
     const sortedNums = [...nums].sort((a, b) => a - b);
@@ -30,5 +29,6 @@ function twoSum(nums, target) {
 
 // Example usage:
 const nums = [2, 7, 11, 15];
-const result = twoSum(nums, 22)
+const target = 22;
+const result = twoSum(nums, target)
 console.log(result);
