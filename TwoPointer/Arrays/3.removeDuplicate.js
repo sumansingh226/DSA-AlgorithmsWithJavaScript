@@ -10,6 +10,9 @@ function removeDuplicates(nums) {
     let uniqueIndex = 0;
 
 
+
+    // Return the new length
+    return uniqueIndex + 1;
 }
 
 // Example usage:
