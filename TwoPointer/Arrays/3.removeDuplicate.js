@@ -9,7 +9,16 @@ function removeDuplicates(nums) {
     // Initialize a pointer to keep track of unique elements
     let uniqueIndex = 0;
 
-
+    // Iterate through the array
+    for (let i = 1; i < nums.length; i++) {
+        // If the current element is different from the previous one
+        if (nums[i] !== nums[uniqueIndex]) {
+            // Move the unique pointer forward
+            uniqueIndex++;
+            // Copy the unique element to the next position
+            nums[uniqueIndex] = nums[i];
+        }
+    }
 
     // Return the new length
     return uniqueIndex + 1;
