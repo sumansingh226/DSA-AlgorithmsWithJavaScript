@@ -1,14 +1,28 @@
 //print  sum of n numbers using recursion
 
-function printSumOfNNumbers(n, i) {
-    if (i > n) {
-        return 0;
+// Parameterized Recursion:
+function sumOfNParam(n, acc = 0) {
+    if (n === 0) { // Base case
+        return acc;
     } else {
-        return i + printSumOfNNumbers(n, i + 1);
+        return sumOfNParam(n - 1, acc + n); // Recursive call with accumulator
     }
 }
 
-const n = 10;
-const i = 1;
-const result = printSumOfNNumbers(n, i);
-console.log("result", result);
+// Example usage
+let result = sumOfNParam(5);
+console.log("Sum of first 5 natural numbers:", result); // Output: 15
+
+
+// Functional Recursion
+function sumOfN(n) {
+    if (n === 0) { // Base case
+        return 0;
+    } else {
+        return n + sumOfN(n - 1); // Recursive call
+    }
+}
+
+// Example usage
+let result1 = sumOfN(5);
+console.log("Sum of first 5 natural numbers:", result1); // Output: 15
