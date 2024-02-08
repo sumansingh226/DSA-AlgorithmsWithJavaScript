@@ -23,4 +23,5 @@ const sortedSquares = (nums) => {
 }
 
 const nums = [-4, -1, 0, 3, 10];
-console.log(sortedSquares(nums)); 
+console.log("arr", nums);
+console.log("square", sortedSquares(nums)); 

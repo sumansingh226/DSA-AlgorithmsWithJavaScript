@@ -26,7 +26,6 @@ const twoSum = (nums, target) => {
     return [];
 }
 
-// Example usage:
 const nums = [2, 7, 11, 15, 2, 7, 3];
 const target = 22;
 const result = twoSum(nums, 10)
