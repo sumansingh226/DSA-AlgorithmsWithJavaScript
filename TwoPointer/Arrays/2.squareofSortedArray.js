@@ -8,7 +8,6 @@ const sortedSquares = (nums) => {
     let left = 0;
     let right = n - 1;
 
-    // Fill the result array from right to left with squared values
     for (let i = n - 1; i >= 0; i--) {
         if (Math.abs(nums[left]) > Math.abs(nums[right])) {
             result[i] = nums[left] * nums[left];
