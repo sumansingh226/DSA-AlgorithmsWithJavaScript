@@ -2,7 +2,6 @@
 //  return an array of the squares of each number sorted in non-decreasing order.
 
 const sortedSquares = (nums) => {
-
     const n = nums.length;
     let result = new Array(n);
     let left = 0;
