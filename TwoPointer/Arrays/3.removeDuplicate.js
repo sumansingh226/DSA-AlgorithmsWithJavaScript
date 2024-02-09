@@ -5,20 +5,14 @@
 
 function removeDuplicates(nums) {
     if (nums.length === 0) return 0;
-
     let uniqueIndex = 0;
-
     for (let i = 1; i < nums.length; i++) {
-        // If the current element is different from the previous one
         if (nums[i] !== nums[uniqueIndex]) {
-            // Move the unique pointer forward
             uniqueIndex++;
-            // Copy the unique element to the next position
             nums[uniqueIndex] = nums[i];
         }
     }
 
-    // Return the new length
     return uniqueIndex + 1;
 }
 
