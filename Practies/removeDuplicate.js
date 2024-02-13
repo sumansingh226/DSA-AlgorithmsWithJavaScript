@@ -2,8 +2,13 @@
 
 
 function removeDuplicate(arr) {
-
     let input = arr;
+    const frequency = {};
+
+    for (const element of input) {
+        if (frequency[element]) frequency[element] += 1;
+        else frequency[element] = 1;
+    }
 
 
 }
