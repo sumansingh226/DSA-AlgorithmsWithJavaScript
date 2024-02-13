@@ -2,15 +2,20 @@
 
 
 function removeDuplicate(arr) {
-    let input = arr;
+    let input = [];
     const frequency = {};
 
-    for (const element of input) {
+    for (const element of arr) {
         if (frequency[element]) frequency[element] += 1;
         else frequency[element] = 1;
     }
 
 
+    for (const element of arr) {
+        if (!frequency[element]) frequency[element]
+        input.push(element)
+    }
+    return input
 }
 
 
