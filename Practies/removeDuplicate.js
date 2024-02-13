@@ -1,23 +1,23 @@
-// remove duplicate
-
-
 function removeDuplicate(arr) {
-    let input = [];
     const frequency = {};
+    const result = [];
 
     for (const element of arr) {
         if (frequency[element]) frequency[element] += 1;
         else frequency[element] = 1;
     }
 
-
     for (const element of arr) {
-        if (!frequency[element]) frequency[element]
-        input.push(element)
+        if (frequency[element] > 0) {
+            result.push(element);
+            frequency[element] = 0;
+        }
     }
-    return input
+
+    return result;
 }
 
-
 const arr = [5, 6, 2, 5, 3, 4, 6];
-removeDuplicate(arr);
+const result = removeDuplicate(arr);
+console.log("original array ", arr);
+console.log("remove duplicate ", result);
