@@ -1,4 +1,5 @@
 // : Find the maximum subarray sum
+
 function maxSubarraySum(arr) {
     let maxSum = arr[0];
     let currentSum = arr[0];
@@ -11,6 +12,5 @@ function maxSubarraySum(arr) {
     return maxSum;
 }
 
-// Example usage
 const arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 console.log(maxSubarraySum(arr)); 
