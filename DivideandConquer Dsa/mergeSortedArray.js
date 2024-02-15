@@ -28,4 +28,6 @@ function mergeSortedArrays(arr1, arr2) {
 
 const arr1 = [5, 6, 9, 12];
 const arr2 = [2, 4, 6, 8];
-console.log(mergeSortedArrays(arr1, arr2)); 
+console.log("array 1", arr1);
+console.log("array 2", arr2);
+console.log("merged sorted array", mergeSortedArrays(arr1, arr2)); 
