@@ -1,4 +1,6 @@
-function mergeSortedArrays(arr1, arr2) {
+//merged two sorted arrays 
+
+const mergeSortedArrays = (arr1, arr2) => {
     let mergedArray = [];
     let i = 0;
     let j = 0;
