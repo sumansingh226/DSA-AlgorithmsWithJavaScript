@@ -14,12 +14,10 @@ const mergeSortedArrays = (arr1, arr2) => {
             j++;
         }
     }
-
     while (i < arr1.length) {
         mergedArray.push(arr1[i]);
         i++;
     }
-
     while (j < arr2.length) {
         mergedArray.push(arr2[j]);
         j++;
