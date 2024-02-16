@@ -146,8 +146,6 @@ const pattern6 = (n) => {
 
 // pattern6(6);
 
-
-
 const pattern7 = (n) => {
     let num = 1;
 
@@ -162,6 +160,3 @@ const pattern7 = (n) => {
 };
 
 pattern7(6);
-
-
-
