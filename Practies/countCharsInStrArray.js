@@ -6,7 +6,7 @@ const countCharsInGivenArray = (arr) => {
     let length = 0;
     for (const value of arr) {
 
-        for (const len of value) {
+        for (const _ of value) {
             length += 1;
         }
     }
