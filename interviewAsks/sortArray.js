@@ -2,6 +2,12 @@
 
 
 function sortRaayOfInteger(arr) {
+    const sortedArray = [];
+
+    for (let i = 0; i < arr.length; i++) {
+
+    }
+
 
 }
 
