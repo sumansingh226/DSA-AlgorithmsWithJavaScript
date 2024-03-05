@@ -13,9 +13,10 @@ function intersection(arr1, arr2) {
     while (i < arr1.length && j < arr2.length) {
         if (arr1[i] < arr2[j]) {
             i++;
-        } else if (arr1[i] > arr2[j]) {
+        } if (arr1[i] > arr2[j]) {
             j++;
-        } else {
+        }
+        else {
             result.push(arr1[i]);
             i++;
             j++;
@@ -27,6 +28,6 @@ function intersection(arr1, arr2) {
 
 
 const arr1 = [1, 5, 7, 6, 7, 4, 6, 9, 3];
-const arr2 = [5, 4, 0, 88, 3, 6, 2, 4]
+const arr2 = [5, 4, 0, 88, 3, 6, 2, 4, 1]
 const result = intersection(arr1, arr2);
 console.log("result", result)
