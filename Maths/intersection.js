@@ -16,7 +16,6 @@ function intersection(arr1, arr2) {
         } else if (arr1[i] > arr2[j]) {
             j++;
         } else {
-            // If the elements are equal, add to result and move both pointers
             result.push(arr1[i]);
             i++;
             j++;
@@ -25,7 +24,6 @@ function intersection(arr1, arr2) {
 
     return result;
 }
-
 
 
 const arr1 = [1, 5, 7, 6, 7, 4, 6, 9, 3];
