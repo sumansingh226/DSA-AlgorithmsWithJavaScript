@@ -21,6 +21,6 @@ function binarySearch(arr, target) {
 }
 
 const arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21];
-const target = 13;
+const target = 17;
 const index = binarySearch(arr, target);
 console.log(index);
