@@ -1,4 +1,4 @@
-// Binary search is a technique used to quickly find a value in a sorted array. 
+// Binary search is a technique used to quickly find a value in a sorted array.
 
 function binarySearch(arr, target) {
     let left = 0;
@@ -6,6 +6,7 @@ function binarySearch(arr, target) {
 
     while (left <= right) {
         let mid = Math.floor((left + right) / 2);
+        // Math.floor is a function in JavaScript that returns the largest integer less than or equal to a given number.
 
         if (arr[mid] === target) {
             return mid;
