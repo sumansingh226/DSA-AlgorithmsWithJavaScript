@@ -33,3 +33,23 @@ Step 2: [11, 12, 25, 22, 64] (12 is the smallest in the remaining, swap with the
 Step 3: [11, 12, 22, 25, 64] (22 is the smallest in the remaining, swap with the third element)
 Step 4: [11, 12, 22, 25, 64] (25 is the smallest in the remaining, swap with the fourth element)
 Step 5: [11, 12, 22, 25, 64] (64 is already in the correct position)*/
+
+const selectionSort = (arr) => {
+    const len = arr.length;
+    for (let i = 0; i < len - 1; i++) {
+        let minIndex = i;
+        for (let j = i + 1; j < len; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        if (minIndex !== i) {
+            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
+    }
+    return arr;
+}
+
+const arr = [64, 25, 12, 22, 11];
+console.log("Original Array:", arr);
+console.log("Sorted Array:", selectionSort(arr));
