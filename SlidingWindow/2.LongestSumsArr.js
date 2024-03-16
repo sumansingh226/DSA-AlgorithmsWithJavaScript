@@ -2,6 +2,8 @@
 
 const longestSubarrayWithSumK = (nums, k) => {
     let maxLength = 0;
+    let maxStart = 0;
+    let maxEnd = -1;
     let sum = 0;
     let start = 0;
 
@@ -13,12 +15,15 @@ const longestSubarrayWithSumK = (nums, k) => {
             start++;
         }
 
-        if (sum === k) {
-            maxLength = Math.max(maxLength, end - start + 1);
+        if (sum === k && end - start + 1 > maxLength) {
+            maxLength = end - start + 1;
+            maxStart = start;
+            maxEnd = end;
         }
     }
 
-    return maxLength;
+    return nums.slice(maxStart, maxEnd + 1);
+
 }
 
 const nums = [10, 5, 2, 7, 1, 5, 9];
