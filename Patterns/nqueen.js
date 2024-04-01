@@ -1,4 +1,4 @@
-function solveNQueens(n) {
+const solveNQueens = (n) => {
     const result = [];
     const board = Array.from({ length: n }, () => Array.from({ length: n }, () => '.'));
 
