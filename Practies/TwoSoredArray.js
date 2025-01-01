@@ -8,7 +8,7 @@ const mergingTwoSortedArray = (sortedArray1, sortedArray2) => {
     let i = 0;
     let j = 0;
     while (i < sortedArray1.length && j < sortedArray2.length) {
-        if (sortedArray1[i] < sortedArray1[j]) {
+        if (sortedArray1[i] < sortedArray2[j]) {
             mergedArray.push(sortedArray1[i])
             i++;
         }
@@ -19,9 +19,11 @@ const mergingTwoSortedArray = (sortedArray1, sortedArray2) => {
     }
     while (i < sortedArray1.length) {
         mergedArray.push(sortedArray1[i])
+        i++;
     }
     while (j < sortedArray2.length) {
         mergedArray.push(sortedArray2[j])
+        j++
     }
     return mergedArray;
 }
