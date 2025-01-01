@@ -1,4 +1,4 @@
-// mere two sorted array
+// mere two sorted array and make new sorted array
 
 
 
@@ -23,7 +23,11 @@ const mergingTwoSortedArray = (sortedArray1, sortedArray2) => {
     while (j < sortedArray2.length) {
         mergedArray.push(sortedArray2[j])
     }
-
-
-
+    return mergedArray;
 }
+
+const sortedArray1 = [1,5,6,8,10,12];
+const sortedArray2 = [0,2,3,5,7];
+
+const result = mergingTwoSortedArray(sortedArray1,sortedArray2);
+console.log("result",result);
