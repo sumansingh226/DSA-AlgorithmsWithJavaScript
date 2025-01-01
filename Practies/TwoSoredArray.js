@@ -42,5 +42,11 @@ const mergingTwoSortedArray = (sortedArray1, sortedArray2) => {
             j++;
         }
     }
+    while(i <sortedArray1.length)
+    {
+        mergedArray.push(sortedArray1[i])
+    }
+
+
 
 }
