@@ -1330,4 +1330,4 @@ Geometry algorithms deal with solving problems related to geometric objects such
 
 - [GeeksforGeeks - Computational Geometry](https://www.geeksforgeeks.org/computer-graphics-algorithms/)
 - [Brilliant.org - Geometry](https://brilliant.org/wiki/geometry-algorithms/)
-- [CGAL - Computational Geometry Algorithms Library](https://www.cgal.org/)
+- [CGAL - Computational Geometry Algorithms Library](https://www.cgal.org
