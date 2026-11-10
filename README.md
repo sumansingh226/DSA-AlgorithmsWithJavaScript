@@ -1325,9 +1325,3 @@ Geometry algorithms deal with solving problems related to geometric objects such
 
 - **Delaunay Triangulation:** Triangulating a set of points such that no point is inside the circumcircle of any triangle.
 - **Bowyer-Watson Algorithm:** An algorithm for Delaunay triangulation.
-
-## Resources
-
-- [GeeksforGeeks - Computational Geometry](https://www.geeksforgeeks.org/computer-graphics-algorithms/)
-- [Brilliant.org - Geometry](https://brilliant.org/wiki/geometry-algorithms/)
-- [CGAL - Computational Geometry Algorithms Library](https://www.cgal.org
